@@ -1,0 +1,71 @@
+body{
+    /* background-image: url(../Imagenes/SegundoImagenes/FondoRojo1.jpg);
+    background-size: cover;
+    background-blend-mode: hard-light;
+    background-color: rgba(255, 0, 0, 0.26); */
+}
+
+.Bienvenida{
+    width: 60%;
+    background-image: url(../Imagenes/PrimeroImagenes/Colors.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+    background-position: center;
+    background-blend-mode: hard-light;
+    background-color: rgba(255, 255, 255, 0.301);
+    border-radius: 15px;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 10px auto;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Another Hand', cursive;
+}
+
+.Preguntas{
+    width: 60%;
+    background-image: url(../Imagenes/FondoTaller.jpg);
+    /* background-image: url(../Imagenes/FondoTaller2.jpg); */
+    background-size: cover;
+    box-sizing: border-box;
+    border-radius: 15px;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 10px auto;
+}
+
+p{
+    font-family: 'Another Hand', cursive;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-size: 20px;
+    /* color: white; */
+}
+
+label{
+    font-family: 'Another Hand', cursive;
+    font-size: 18px;
+    /* color: white; */
+}
+
+
+.Video{
+    width: 60%;
+    background-image: url(../Imagenes/FondoTaller.jpg);
+    /* background-image: url(../Imagenes/FondoTaller2.jpg); */
+    background-size: cover;
+    box-sizing: border-box;
+    border-radius: 15px;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe{
+    height: 500px;
+    width: 800px;
+}
