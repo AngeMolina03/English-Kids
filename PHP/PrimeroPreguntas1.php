@@ -140,7 +140,7 @@
         
         
     <?php
-
+        error_reporting(0);
         if(isset($_POST['Calificar'])){
             echo "<div class='BotonCalificar' id='VentanaCalificacion'>
             <a href='javascript:Cerrar()'>x</a>";
@@ -151,9 +151,6 @@
             $Respuesta4 = $_POST['Respuesta4'];
             $Respuesta5 = $_POST['Respuesta5'];
             $Calificacion = 0;
-          if($Respuesta1==""{
-            $Respuesta1="malo";
-        }
 
             if($Respuesta1== "Two"){
                 $Calificacion++;
