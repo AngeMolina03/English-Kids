@@ -9,7 +9,7 @@
 <body>
     
 
-    <a href="../Primero.html"></a>
+    <a class="Casita" href="../Primero.html"></a>
 
     <div class="Bienvenida">
         
@@ -137,11 +137,13 @@
 
 
     </form>
-
-    
+        
+        
     <?php
 
         if(isset($_POST['Calificar'])){
+            echo "<div class='BotonCalificar' id='VentanaCalificacion'>
+            <a href='javascript:Cerrar()'>x</a>";
 
             $Respuesta1 = $_POST['Respuesta1'];
             $Respuesta2 = $_POST['Respuesta2'];
@@ -149,34 +151,38 @@
             $Respuesta4 = $_POST['Respuesta4'];
             $Respuesta5 = $_POST['Respuesta5'];
             $Calificacion = 0;
+          if($Respuesta1==""{
+            $Respuesta1="malo";
+        }
 
             if($Respuesta1== "Two"){
                 $Calificacion++;
-            }
-
+            } 
+            
             if($Respuesta2== "Five"){
                 $Calificacion++;
             }
-
+            
             if($Respuesta3== "Nueve"){
                 $Calificacion++;
             }
-
+            
             if($Respuesta4== "Six"){
                 $Calificacion++;
             }
-
+            
             if($Respuesta5== "Ten"){
                 $Calificacion++;
             }
             
-            echo "Su calificación es $Calificacion";
-            
+            echo "<p class='ParrafoCalificacion' >Su calificación es $Calificacion</p>";
+            echo "</div>";
         }
 
 
     ?>
 
+    <script src="../JS/CerrarCalificacion.js"></script>
     
 
 </body>
