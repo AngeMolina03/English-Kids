@@ -117,7 +117,7 @@
     
         <p>5.Complete the following sequence: </p>
         <br>
-        <label>Eighth-nine_______eleven</label>
+        <label>Eight-nine-_______eleven</label>
         <br><br><br>
 
         <label>
