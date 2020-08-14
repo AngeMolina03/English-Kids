@@ -140,7 +140,12 @@
         
         
     <?php
-        error_reporting(0);
+        $Respuesta1 = "Vacio";
+        $Respuesta2 = "Vacio";
+        $Respuesta3 = "Vacio";
+        $Respuesta4 = "Vacio";
+        $Respuesta5 = "Vacio";
+        // error_reporting(0);
         if(isset($_POST['Calificar'])){
             echo "<div class='BotonCalificar' id='VentanaCalificacion'>
             <a href='javascript:Cerrar()'>x</a>";
@@ -152,9 +157,11 @@
             $Respuesta5 = $_POST['Respuesta5'];
             $Calificacion = 0;
 
-            if($Respuesta1== "Two"){
+            if($Respuesta1== "Vacio"){
+                $Calificacion--;
+            }elseif($Respuesta1=="Two"){
                 $Calificacion++;
-            } 
+            }
             
             if($Respuesta2== "Five"){
                 $Calificacion++;
