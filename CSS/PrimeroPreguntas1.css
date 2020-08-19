@@ -143,6 +143,17 @@ iframe{
     padding: 20px; 
 }
 
+.VentanaOpaca{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 
 
 
