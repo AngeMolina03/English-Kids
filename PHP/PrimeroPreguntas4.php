@@ -8,7 +8,7 @@
 </head>
 <body>
     
-    <a href="../Primero.html"></a>
+    <a class="Casita" href="../Primero.html"></a>
 
 <div class="Bienvenida">
         
@@ -76,7 +76,7 @@
 
     <div class="Preguntas">
     
-        <p>3.What color is this? </p>
+        <p>3.What animal is this? </p>
 
         <img src="../Imagenes/PrimeroTaller4/Panda.jpg" alt="">
         <br>
@@ -151,8 +151,14 @@
     </form>
 
     <?php
-
+        $Respuesta1 = "Vacio";
+        $Respuesta2 = "Vacio";
+        $Respuesta3 = "Vacio";
+        $Respuesta4 = "Vacio";
+        $Respuesta5 = "Vacio";
         if(isset($_POST['Calificar'])){
+            echo "<div class='BotonCalificar' id='VentanaCalificacion'>
+            <a href='javascript:Cerrar()'>x</a>";
 
             $Respuesta1 = $_POST['Respuesta1'];
             $Respuesta2 = $_POST['Respuesta2'];
@@ -181,12 +187,12 @@
                 $Calificacion++;
             }
             
-            echo "Su calificación es $Calificacion";
+            echo "<p class='ParrafoCalificacion' >Su calificación es $Calificacion</p>";
+            echo "</div>";
             
         }
-
-
     ?>
 
+    <script src="../JS/CerrarCalificacion.js"></script>
 </body>
 </html>

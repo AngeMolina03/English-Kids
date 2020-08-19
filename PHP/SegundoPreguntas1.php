@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Week</title>
-    <link rel="stylesheet" href="../CSS/PrimeroPreguntas3.css">
+    <title>Daily Routins</title>
+    <link rel="stylesheet" href="../CSS/SegundoPreguntas1.css">
 </head>
 <body>
     
-    <a class="Casita" href="../Primero.html"></a>
+    <a class="Casita" href="../Segundo.html"></a>
 
 <div class="Bienvenida">
         
@@ -22,110 +22,108 @@
 
     <div class="Video">
     
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/lPgTdgvj_jc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/zzdz7mDW0eI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     </div>
 
-    <form action="PrimeroPreguntas3.php" method="post">
+    <form action="SegundoPreguntas1.php" method="post">
 
 
     <div class="Preguntas">
          
          
-         <img src="../Imagenes/PrimeroTaller3/Week.jpg" class="Imagen">
+         <img src="../Imagenes/SegundoTaller1/DailyRoutins.jpg" class="Imagen">
          <br>
  
      </div>
 
     <div class="Preguntas">
          
-        <p>1.Miercoles in English is:</p>
+        <p>1.What is the first thing I do in the morning?</p>
         
 
         <label>
-            <input type="radio" name="Respuesta1" value="Wednesday"> Wednesday
+            <input type="radio" name="Respuesta1" value="Have dinner"> Have dinner
         </label>
         <br>
         <label>
-            <input type="radio" name="Respuesta1" value="Sunday"> Sunday
+            <input type="radio" name="Respuesta1" value="Get up"> Get up
         </label>
         <br>
         <label>
-            <input type="radio" name="Respuesta1" value="Friday"> Friday
+            <input type="radio" name="Respuesta1" value="Sawing work"> Sawing work
         </label>
 
     </div>
 
     <div class="Preguntas">
     
-        <p>2.Lunes in English is:</p>
+        <p>2.What thing I do before I have breakfast?</p>
 
         <label>
-            <input type="radio" name="Respuesta2" value="Thursday"> Thursday
+            <input type="radio" name="Respuesta2" value="Take a shower"> Take a shower
         </label>
         <br>
         <label>
-            <input type="radio" name="Respuesta2" value="Tuesday"> Tuesday
+            <input type="radio" name="Respuesta2" value="Study at night"> Study at night
         </label>
         <br>
         <label>
-            <input type="radio" name="Respuesta2" value="Monday"> Monday
+            <input type="radio" name="Respuesta2" value="Go to bed"> Go to bed
         </label>
 
     </div>
 
     <div class="Preguntas">
     
-        <p>3.Jueves in English is:</p>
+        <p>3.What thing I do after study at night?</p>
 
         <label>
-            <input type="radio" name="Respuesta3" value="Thursday"> Thursday
+            <input type="radio" name="Respuesta3" value="Have dinner"> Have dinner
         </label>
         <br>
         <label>
-            <input type="radio" name="Respuesta3" value="Friday"> Friday
+            <input type="radio" name="Respuesta3" value="Brush my teeth"> Brush my teeth
         </label>
         <br>
         <label>
-            <input type="radio" name="Respuesta3" value="Saturday"> Saturday
+            <input type="radio" name="Respuesta3" value="Get up"> Get up
         </label>
 
     </div>
 
     <div class="Preguntas">
     
-        <p>4.Sabado in English is: </p>
-        <br>
+        <p>4.What is the last thing I do? </p>
         
         <label>
-            <input type="radio" name="Respuesta4" value="Saturday"> Saturday
+            <input type="radio" name="Respuesta4" value="Sawing work"> Sawing work
         </label>
         <br>
         <label>
-            <input type="radio" name="Respuesta4" value="Thursday"> Thursday
+            <input type="radio" name="Respuesta4" value="Go bed"> Go bed
         </label>
         <br>
         <label>
-            <input type="radio" name="Respuesta4" value="Tuesday"> Tuesday
+            <input type="radio" name="Respuesta4" value="Get up"> Get up
         </label>
 
     </div>
 
     <div class="Preguntas">
     
-        <p>5.Viernes in English is: </p>
-        <br>
+        <p>5.What thing I do after sawing work? </p>
 
         <label>
-            <input type="radio" name="Respuesta5" value="Monday"> Monday
+            <input type="radio" name="Respuesta5" value="Have breakfast"> Have breakfast
         </label>
         <br>
         <label>
-            <input type="radio" name="Respuesta5" value="Friday"> Friday
+            <input type="radio" name="Respuesta5" value="Have dinner"> Have dinner
         </label>
         <br>
         <label>
-            <input type="radio" name="Respuesta5" value="Saturday"> Saturday
+            <input type="radio" name="Respuesta5" value="Take a shower"> Take a shower
         </label>
 
     </div>
@@ -153,23 +151,23 @@
             $Respuesta5 = $_POST['Respuesta5'];
             $Calificacion = 0;
 
-            if($Respuesta1== "Wednesday"){
+            if($Respuesta1== "Get up"){
                 $Calificacion++;
             }
 
-            if($Respuesta2== "Monday"){
+            if($Respuesta2== "Take a shower"){
                 $Calificacion++;
             }
 
-            if($Respuesta3== "Thursday"){
+            if($Respuesta3== "Brush my teeth"){
                 $Calificacion++;
             }
 
-            if($Respuesta4== "Saturday"){
+            if($Respuesta4== "Go bed"){
                 $Calificacion++;
             }
 
-            if($Respuesta5== "Friday"){
+            if($Respuesta5== "Have breakfast"){
                 $Calificacion++;
             }
             

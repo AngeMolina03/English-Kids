@@ -82,12 +82,12 @@ nav ul li a:hover{
 
 .Temas{
     padding-right: 210px;
-    margin-bottom: 250px;
+    margin-bottom: 200px;
     text-align: center;
 }
 
 .Temas h2,p{
-    font-size:40px;
+    font-size:32px;
     color: white;
     font-family: 'Another Hand', cursive;
 }

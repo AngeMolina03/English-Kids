@@ -1,11 +1,13 @@
 body{
-    /* background-image: url(../Imagenes/PrimeroImagenes/Fondo2Primero.jpg); */
-    background-color: white;
+    /* background-image: url(../Imagenes/SegundoImagenes/FondoRojo1.jpg);
+    background-size: cover;
+    background-blend-mode: hard-light;
+    background-color: rgba(255, 0, 0, 0.26); */
 }
 
 .Bienvenida{
     width: 60%;
-    background-image: url(../Imagenes/PrimeroImagenes/Numbers.jpg);
+    background-image: url(../Imagenes/SegundoImagenes/Daily_Routins.jpg);
     background-size: cover;
     box-sizing: border-box;
     background-position: center;
@@ -51,6 +53,7 @@ label{
 .Video{
     width: 60%;
     background-image: url(../Imagenes/FondoTaller.jpg);
+    /* background-image: url(../Imagenes/FondoTaller2.jpg); */
     background-size: cover;
     box-sizing: border-box;
     border-radius: 15px;
@@ -110,42 +113,26 @@ iframe{
     cursor: pointer;
 }
 
+.Imagen{
+    width: 60%;
+    height: 350px;
+}
+
 .BotonCalificar{
     position: fixed;
     left: 20%;
     top: 20%;
     width: 60%;
     height: 300px;
-    background-image:url(../Imagenes/FondoCalificar.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 35px 0px 35px 0px; 
-    -moz-border-radius: 35px 0px 35px 0px; 
-    -webkit-border-radius: 35px 0px 35px 0px; 
-    border: 2px solid #5878ca;
+    background-color: hotpink;
     text-align: center;
     display: block;
     
 }
 
-
 .ParrafoCalificacion{
-    font-family: 'Another Hand', cursive; 
-    color: black; 
-    font-size: 18px; 
-    font-weight: 400; 
-    text-align: center; 
-    /* background: #889ccf;  */
-    /* background-image:url(../Imagenes/FondoCalificar.jpg); */
-    /* background-position: center; */
-    margin: 0 0 25px; 
-    overflow: hidden; 
-    padding: 20px; 
+    font-size: 40px;
+    font-family: 'Another Hand', cursive;
+    color: white;
+    margin-top: 120px;
 }
-
-
-
-
-
-
-

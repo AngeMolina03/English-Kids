@@ -145,7 +145,7 @@
         $Respuesta3 = "Vacio";
         $Respuesta4 = "Vacio";
         $Respuesta5 = "Vacio";
-        // error_reporting(0);
+        
         if(isset($_POST['Calificar'])){
             echo "<div class='BotonCalificar' id='VentanaCalificacion'>
             <a href='javascript:Cerrar()'>x</a>";
