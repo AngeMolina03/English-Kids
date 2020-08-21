@@ -1,6 +1,10 @@
 body{
-    /* background-image: url(../Imagenes/PrimeroImagenes/Fondo2Primero.jpg); */
-    background-color: white;
+    background-image: url(../Imagenes/FondoCalificar.jpg);
+    /* background-position: center;
+    /* background-size: cover; */
+    /* width: 100%;
+    height: 100%; */
+    
 }
 
 .Bienvenida{
@@ -116,7 +120,7 @@ iframe{
     top: 20%;
     width: 60%;
     height: 300px;
-    background-image:url(../Imagenes/FondoCalificar.jpg);
+    background-image:url(../Imagenes/FondoTaller.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 35px 0px 35px 0px; 
@@ -135,9 +139,6 @@ iframe{
     font-size: 18px; 
     font-weight: 400; 
     text-align: center; 
-    /* background: #889ccf;  */
-    /* background-image:url(../Imagenes/FondoCalificar.jpg); */
-    /* background-position: center; */
     margin: 0 0 25px; 
     overflow: hidden; 
     padding: 20px; 
@@ -152,6 +153,12 @@ iframe{
     align-content: center;
     display: block;
     background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+}
+
+.oculto{
+    display: none;
 }
 
 

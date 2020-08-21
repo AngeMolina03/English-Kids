@@ -46,6 +46,9 @@
         <label>
             <input type="radio" name="Respuesta1" value="Ten" > Ten
         </label>
+        <label class="oculto">
+            <input type="radio" name="Respuesta1" value="Vacio" checked>
+        </label>
 
     </div>
 
@@ -66,6 +69,9 @@
         <br>
         <label>
             <input type="radio" name="Respuesta2" value="Five"> Five
+        </label>
+        <label class="oculto">
+            <input type="radio" name="Respuesta1" value="Vacio" checked>
         </label>
 
     </div>
@@ -140,11 +146,6 @@
         
         
     <?php
-        $Respuesta1 = "Vacio";
-        $Respuesta2 = "Vacio";
-        $Respuesta3 = "Vacio";
-        $Respuesta4 = "Vacio";
-        $Respuesta5 = "Vacio";
         
         if(isset($_POST['Calificar'])){
             echo "<div class='VentanaOpaca' id='VentanaOpaca'>";
