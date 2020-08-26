@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Opossites</title>
-    <link rel="stylesheet" href="../CSS/TerceroPreguntas1.css">
+    <title>READING COMPREHENSION</title>
+    <link rel="stylesheet" href="../CSS/TerceroPreguntas4.css">
 </head>
 <body>
     
@@ -20,31 +20,29 @@
 
     </div>
 
-    <div class="Video">
+    <form action="TerceroPreguntas4.php" method="post">
     
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/HGeuA4iJ8vI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+    <div class="Preguntas">
+        <p>Hello, my name is Alice and I have eight years old. I born in Barcelona, but I live is Canada since I was a baby. I like dancing and singing in my free time but what I like the most is going to the cinema with my friends. I don’t like pickles and  onions. I’m in third grade at school, my classmates and my teachers are so nice with me. There is always a lot of people around me. Also, I have a little brother called Mario and a cat called Blue.</p>
+        
+        <img Class="A" src="../Imagenes/TerceroTaller4/Alice.jpg" alt="">
+        
     </div>
-
-    <form action="TerceroPreguntas1.php" method="post">
 
     <div class="Preguntas">
          
-        <p>1.The opposite of day is… </p>
-        
-        <img src="../Imagenes/TerceroTaller1/Night.jpg" alt="">
-        <br><br>
+        <p>1.Where does Alice live? </p>
 
         <label>
-            <input type="radio" name="Respuesta1" value="Night" > Night
+            <input type="radio" name="Respuesta1" value="Barcelona" > Barcelona
         </label>
         <br>
         <label>
-            <input type="radio" name="Respuesta1" value="Moon" > Moon
+            <input type="radio" name="Respuesta1" value="Canada" > Canada
         </label>
         <br>
         <label>
-            <input type="radio" name="Respuesta1" value="Black" > Black
+            <input type="radio" name="Respuesta1" value="Argentina" > Argentina
         </label>
         <label class="oculto">
             <input type="radio" name="Respuesta1" value="Vacio" checked>
@@ -54,21 +52,18 @@
 
     <div class="Preguntas">
     
-        <p>2.The  opposite of big is… </p>
-
-        <img src="../Imagenes/TerceroTaller1/Little.jpg" alt="">
-        <br><br>
+        <p>2.What does Alice like to do the most? </p>
 
         <label>
-            <input type="radio" name="Respuesta2" value="Mouse"> Mouse 
-        </label>
+            <input type="radio" name="Respuesta2" value="Dancing and singing"> Dancing and singing  
+        </lab>
         <br>
         <label>
-            <input type="radio" name="Respuesta2" value="Little"> Little
-        </label>
+            <input type="radio" name="Respuesta2" value="Go to cinema"> Go to cinema
+        </label> 
         <br>
         <label>
-            <input type="radio" name="Respuesta2" value="Grand"> Grand
+            <input type="radio" name="Respuesta2" value="Pickles and onions"> Pickles and onions
         </label>
         <label class="oculto">
             <input type="radio" name="Respuesta2" value="Vacio" checked>
@@ -78,21 +73,18 @@
 
     <div class="Preguntas">
     
-        <p>3.The opposite of  down is… </p>
-
-        <img src="../Imagenes/TerceroTaller1/Up.jpg" alt="">
-        <br><br>
+        <p>3.What grade is Alice in?</p>
 
             <label>
-                <input type="radio" name="Respuesta3" value="Up" > Up
+                <input type="radio" name="Respuesta3" value="First" > First
             </label>
             <br>
             <label>
-                <input type="radio" name="Respuesta3" value="Next"> Next
+                <input type="radio" name="Respuesta3" value="Second"> Second
             </label>
             <br>
             <label>
-                <input type="radio" name="Respuesta3" value="Infront"> Infront
+                <input type="radio" name="Respuesta3" value="Third"> Third
             </label>
             <label class="oculto">
             <input type="radio" name="Respuesta3" value="Vacio" checked>
@@ -102,22 +94,18 @@
 
     <div class="Preguntas">
     
-        <p>4.The opposite of fast is… </p>
-        <br>
-
-        <img src="../Imagenes/TerceroTaller1/Slow.jpg" alt="">
-        <br><br>
+        <p>4.What grade is Alice in?</p>
 
         <label>
-            <input type="radio" name="Respuesta4" value="Slow"> Slow
+            <input type="radio" name="Respuesta4" value="Mario"> Mario
         </label>
         <br>
         <label>
-            <input type="radio" name="Respuesta4" value="Faster"> Faster
+            <input type="radio" name="Respuesta4" value="Blue"> Blue
         </label>
         <br>
         <label>
-            <input type="radio" name="Respuesta4" value="Green"> Green
+            <input type="radio" name="Respuesta4" value="Baby"> Baby
         </label>
         <label class="oculto">
             <input type="radio" name="Respuesta4" value="Vacio" checked>
@@ -127,22 +115,18 @@
 
     <div class="Preguntas">
     
-        <p>5.Complete the following sequence: </p>
-        <br>
-        
-        <img src="../Imagenes/TerceroTaller1/Short.jpg" alt="">
-        <br><br>
+        <p>5.How old is Alice? </p>
 
         <label>
-            <input type="radio" name="Respuesta5" value="Short"> Short
+            <input type="radio" name="Respuesta5" value="Ten years old"> Ten years old
         </label>
         <br>
         <label>
-            <input type="radio" name="Respuesta5" value="Big"> Big
+            <input type="radio" name="Respuesta5" value="Eight years old"> Eight years old
         </label>
         <br>
         <label>
-            <input type="radio" name="Respuesta5" value="Puerple"> Purple
+            <input type="radio" name="Respuesta5" value="Five years old"> Five years old
         </label>
         <label class="oculto">
             <input type="radio" name="Respuesta5" value="Vacio" checked>
@@ -169,23 +153,23 @@
             $Respuesta5 = $_POST['Respuesta5'];
             $Calificacion = 0;
  
-            if($Respuesta1=="Night"){
+            if($Respuesta1=="Canada"){
                 $Calificacion++;
             }
             
-            if($Respuesta2== "Little"){
+            if($Respuesta2== "Go to cinema"){
                 $Calificacion++;
             }
             
-            if($Respuesta3== "Up"){
+            if($Respuesta3== "Third"){
                 $Calificacion++;
             }
             
-            if($Respuesta4== "Slow"){
+            if($Respuesta4== "Blue"){
                 $Calificacion++;
             }
             
-            if($Respuesta5== "Short"){
+            if($Respuesta5== "Eight years old"){
                 $Calificacion++;
             }
             

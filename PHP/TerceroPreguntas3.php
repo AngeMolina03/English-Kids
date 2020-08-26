@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Opossites</title>
-    <link rel="stylesheet" href="../CSS/TerceroPreguntas1.css">
+    <title>THE TIME</title>
+    <link rel="stylesheet" href="../CSS/TerceroPreguntas3.css">
 </head>
 <body>
     
@@ -22,29 +22,29 @@
 
     <div class="Video">
     
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/HGeuA4iJ8vI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     </div>
 
-    <form action="TerceroPreguntas1.php" method="post">
+    <form action="TerceroPreguntas3.php" method="post">
 
     <div class="Preguntas">
          
-        <p>1.The opposite of day is… </p>
+        <p>1.What time is it? </p>
         
-        <img src="../Imagenes/TerceroTaller1/Night.jpg" alt="">
+        <img src="../Imagenes/TerceroTaller3/uno.png" alt="">
         <br><br>
 
         <label>
-            <input type="radio" name="Respuesta1" value="Night" > Night
+            <input type="radio" name="Respuesta1" value="It’s  seven o’ clock" > It’s  seven o’ clock
         </label>
         <br>
         <label>
-            <input type="radio" name="Respuesta1" value="Moon" > Moon
+            <input type="radio" name="Respuesta1" value="It’s  nine o’ clock" >	It’s  nine o’ clock
         </label>
         <br>
         <label>
-            <input type="radio" name="Respuesta1" value="Black" > Black
+            <input type="radio" name="Respuesta1" value="It’s twelve o’ clock" > It’s twelve o’ clock
         </label>
         <label class="oculto">
             <input type="radio" name="Respuesta1" value="Vacio" checked>
@@ -54,21 +54,21 @@
 
     <div class="Preguntas">
     
-        <p>2.The  opposite of big is… </p>
+        <p>2.What time is it? </p>
 
-        <img src="../Imagenes/TerceroTaller1/Little.jpg" alt="">
+        <img src="../Imagenes/TerceroTaller3/dos.png" alt="">
         <br><br>
 
         <label>
-            <input type="radio" name="Respuesta2" value="Mouse"> Mouse 
+            <input type="radio" name="Respuesta2" value="It’s two o’ clock"> It’s two o’ clock 
+        </lab>
+        <br>
+        <label>
+            <input type="radio" name="Respuesta2" value="It’s five o’ clock"> It’s five o’ clock
         </label>
         <br>
         <label>
-            <input type="radio" name="Respuesta2" value="Little"> Little
-        </label>
-        <br>
-        <label>
-            <input type="radio" name="Respuesta2" value="Grand"> Grand
+            <input type="radio" name="Respuesta2" value="It’s ten o’ clock"> It’s ten o’ clock
         </label>
         <label class="oculto">
             <input type="radio" name="Respuesta2" value="Vacio" checked>
@@ -78,21 +78,21 @@
 
     <div class="Preguntas">
     
-        <p>3.The opposite of  down is… </p>
+        <p>3.What time is it?</p>
 
-        <img src="../Imagenes/TerceroTaller1/Up.jpg" alt="">
+        <img src="../Imagenes/TerceroTaller3/tres.png" alt="">
         <br><br>
 
             <label>
-                <input type="radio" name="Respuesta3" value="Up" > Up
+                <input type="radio" name="Respuesta3" value="It’s one o’clock" > It’s one o’clock
             </label>
             <br>
             <label>
-                <input type="radio" name="Respuesta3" value="Next"> Next
+                <input type="radio" name="Respuesta3" value="It’s three o’ clock"> It’s three o’ clock
             </label>
             <br>
             <label>
-                <input type="radio" name="Respuesta3" value="Infront"> Infront
+                <input type="radio" name="Respuesta3" value="It’s six o’ clock"> It’s six o’ clock
             </label>
             <label class="oculto">
             <input type="radio" name="Respuesta3" value="Vacio" checked>
@@ -102,22 +102,22 @@
 
     <div class="Preguntas">
     
-        <p>4.The opposite of fast is… </p>
+        <p>4.What time is it? </p>
         <br>
 
-        <img src="../Imagenes/TerceroTaller1/Slow.jpg" alt="">
+        <img src="../Imagenes/TerceroTaller3/cuatro.png" alt="">
         <br><br>
 
         <label>
-            <input type="radio" name="Respuesta4" value="Slow"> Slow
+            <input type="radio" name="Respuesta4" value="It’s nine o’ clock"> It’s nine o’ clock
         </label>
         <br>
         <label>
-            <input type="radio" name="Respuesta4" value="Faster"> Faster
+            <input type="radio" name="Respuesta4" value="It’s twelve o’ clock"> It’s twelve o’ clock
         </label>
         <br>
         <label>
-            <input type="radio" name="Respuesta4" value="Green"> Green
+            <input type="radio" name="Respuesta4" value="It’s  five o’ clock"> It’s  five o’ clock
         </label>
         <label class="oculto">
             <input type="radio" name="Respuesta4" value="Vacio" checked>
@@ -127,22 +127,22 @@
 
     <div class="Preguntas">
     
-        <p>5.Complete the following sequence: </p>
+        <p>5.What time is it? </p>
         <br>
         
-        <img src="../Imagenes/TerceroTaller1/Short.jpg" alt="">
+        <img src="../Imagenes/TerceroTaller3/cinco.png" alt="">
         <br><br>
 
         <label>
-            <input type="radio" name="Respuesta5" value="Short"> Short
+            <input type="radio" name="Respuesta5" value="It’s seven o’ clock"> It’s seven o’ clock
         </label>
         <br>
         <label>
-            <input type="radio" name="Respuesta5" value="Big"> Big
+            <input type="radio" name="Respuesta5" value="It’s three o’ clock"> It’s three o’ clock
         </label>
         <br>
         <label>
-            <input type="radio" name="Respuesta5" value="Puerple"> Purple
+            <input type="radio" name="Respuesta5" value="Its’s nine o’ clock"> Its’s nine o’ clock
         </label>
         <label class="oculto">
             <input type="radio" name="Respuesta5" value="Vacio" checked>
@@ -169,23 +169,23 @@
             $Respuesta5 = $_POST['Respuesta5'];
             $Calificacion = 0;
  
-            if($Respuesta1=="Night"){
+            if($Respuesta1=="It’s  seven o’ clock"){
                 $Calificacion++;
             }
             
-            if($Respuesta2== "Little"){
+            if($Respuesta2== "It’s five o’ clock"){
                 $Calificacion++;
             }
             
-            if($Respuesta3== "Up"){
+            if($Respuesta3== "It’s one o’clock"){
                 $Calificacion++;
             }
             
-            if($Respuesta4== "Slow"){
+            if($Respuesta4== "It’s nine o’ clock"){
                 $Calificacion++;
             }
             
-            if($Respuesta5== "Short"){
+            if($Respuesta5== "It’s three o’ clock"){
                 $Calificacion++;
             }
             
