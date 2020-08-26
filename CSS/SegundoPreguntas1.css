@@ -136,3 +136,20 @@ iframe{
     color: white;
     margin-top: 120px;
 }
+
+.VentanaOpaca{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+}
+
+.oculto{
+    display: none;
+}

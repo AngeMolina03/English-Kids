@@ -171,7 +171,9 @@
         $Respuesta3 = "Vacio";
         $Respuesta4 = "Vacio";
         $Respuesta5 = "Vacio";
+
         if(isset($_POST['Calificar'])){
+            echo "<div class='VentanaOpaca' id='VentanaOpaca'>";
             echo "<div class='BotonCalificar' id='VentanaCalificacion'>
             <a href='javascript:Cerrar()'>x</a>";
 
@@ -203,6 +205,7 @@
             }
             
             echo "<p class='ParrafoCalificacion' >Su calificación es $Calificacion</p>";
+            echo "</div>";
             echo "</div>";
             
         }
