@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Week</title>
-    <link rel="stylesheet" href="../CSS/PrimeroPreguntas3.css">
+    <title>Family</title>
+    <link rel="stylesheet" href="../CSS/SegundoPreguntas2.css">
 </head>
 <body>
     
-    <a class="Casita" href="../Primero.html"></a>
+    <a class="Casita" href="../Segundo.html"></a>
 
 <div class="Bienvenida">
         
@@ -26,7 +26,7 @@
 
     </div>
 
-    <form action="PrimeroPreguntas3.php" method="post">
+    <form action="SegundoPreguntas2.php" method="post">
 
 
     <div class="Preguntas">
