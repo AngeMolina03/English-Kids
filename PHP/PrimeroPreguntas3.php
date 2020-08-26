@@ -53,6 +53,9 @@
         <label>
             <input type="radio" name="Respuesta1" value="Friday"> Friday
         </label>
+        <label class="oculto">
+            <input type="radio" name="Respuesta1" value="Vacio" checked>
+        </label>
 
     </div>
 
@@ -71,6 +74,9 @@
         <label>
             <input type="radio" name="Respuesta2" value="Monday"> Monday
         </label>
+        <label class="oculto">
+            <input type="radio" name="Respuesta2" value="Vacio" checked>
+        </label>
 
     </div>
 
@@ -88,6 +94,9 @@
         <br>
         <label>
             <input type="radio" name="Respuesta3" value="Saturday"> Saturday
+        </label>
+        <label class="oculto">
+            <input type="radio" name="Respuesta3" value="Vacio" checked>
         </label>
 
     </div>
@@ -108,6 +117,9 @@
         <label>
             <input type="radio" name="Respuesta4" value="Tuesday"> Tuesday
         </label>
+        <label class="oculto">
+            <input type="radio" name="Respuesta4" value="Vacio" checked>
+        </label>
 
     </div>
 
@@ -126,6 +138,9 @@
         <br>
         <label>
             <input type="radio" name="Respuesta5" value="Saturday"> Saturday
+        </label>
+        <label class="oculto">
+            <input type="radio" name="Respuesta5" value="Vacio" checked>
         </label>
 
     </div>

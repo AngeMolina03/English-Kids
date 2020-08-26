@@ -71,7 +71,7 @@
             <input type="radio" name="Respuesta2" value="Five"> Five
         </label>
         <label class="oculto">
-            <input type="radio" name="Respuesta1" value="Vacio" checked>
+            <input type="radio" name="Respuesta2" value="Vacio" checked>
         </label>
 
     </div>
@@ -94,7 +94,9 @@
             <label>
                 <input type="radio" name="Respuesta3" value="Nueve"> Nueve
             </label>
-
+            <label class="oculto">
+                <input type="radio" name="Respuesta3" value="Vacio" checked>
+            </label>
 
     </div>
 
@@ -116,6 +118,9 @@
         <label>
             <input type="radio" name="Respuesta4" value="Eight"> Eight
         </label>
+        <label class="oculto">
+            <input type="radio" name="Respuesta4" value="Vacio" checked>
+        </label>
 
     </div>
 
@@ -136,6 +141,9 @@
         <br>
         <label>
             <input type="radio" name="Respuesta5" value="Seven"> Seven
+        </label>
+        <label class="oculto">
+            <input type="radio" name="Respuesta5" value="Vacio" checked>
         </label>
     </div>
     

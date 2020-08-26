@@ -53,6 +53,9 @@
         <label>
             <input type="radio" name="Respuesta1" value="Sawing work"> Sawing work
         </label>
+        <label class="oculto">
+            <input type="radio" name="Respuesta1" value="Vacio" checked>
+        </label>
 
     </div>
 
@@ -70,6 +73,9 @@
         <br>
         <label>
             <input type="radio" name="Respuesta2" value="Go to bed"> Go to bed
+        </label>
+        <label class="oculto">
+            <input type="radio" name="Respuesta2" value="Vacio" checked>
         </label>
 
     </div>
@@ -89,6 +95,9 @@
         <label>
             <input type="radio" name="Respuesta3" value="Get up"> Get up
         </label>
+        <label class="oculto">
+            <input type="radio" name="Respuesta3" value="Vacio" checked>
+        </label>
 
     </div>
 
@@ -107,6 +116,9 @@
         <label>
             <input type="radio" name="Respuesta4" value="Get up"> Get up
         </label>
+        <label class="oculto">
+            <input type="radio" name="Respuesta4" value="Vacio" checked>
+        </label>
 
     </div>
 
@@ -124,6 +136,9 @@
         <br>
         <label>
             <input type="radio" name="Respuesta5" value="Take a shower"> Take a shower
+        </label>
+        <label class="oculto">
+            <input type="radio" name="Respuesta5" value="Vacio" checked>
         </label>
 
     </div>
