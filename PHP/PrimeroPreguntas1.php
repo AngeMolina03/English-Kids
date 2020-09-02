@@ -167,9 +167,7 @@
             $Respuesta5 = $_POST['Respuesta5'];
             $Calificacion = 0;
 
-            if($Respuesta1== "Vacio"){
-                $Calificacion--;
-            }elseif($Respuesta1=="Two"){
+            if($Respuesta1=="Two"){
                 $Calificacion++;
             }
             
