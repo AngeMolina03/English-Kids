@@ -3,8 +3,7 @@
     padding: 0;
 }
 body{
-    /* background-image: url(../Imagenes/SegundoImagenes/FondoRojo3.jpg); */
-    background-color: yellow;
+    background-image: url(../Imagenes/CuartoImagenes/FondoCuarto.jpg);
     background-position: center;
     background-attachment: contain;
     background-size: cover;
@@ -128,8 +127,7 @@ nav ul li a:hover{
 }
 
 .Taller1{
-    /* background-image: url(../Imagenes/SegundoImagenes/Daily_Routins.jpg); */
-    background-color: white;
+    background-image: url(../Imagenes/CuartoImagenes/VERB\ TO\ BE.jpg);
     margin: auto;
     text-decoration: none;
     width: 35%;
@@ -143,8 +141,7 @@ nav ul li a:hover{
 }
 
 .Taller2{
-    /* background-image: url(../Imagenes/SegundoImagenes/Family.jpg); */
-    background-color: white;
+    background-image: url(../Imagenes/CuartoImagenes/SOME-ANY.jpg);
     margin: auto;
     text-decoration: none;
     width: 35%;
@@ -158,8 +155,7 @@ nav ul li a:hover{
 }
 
 .Taller3{
-    /* background-image: url(../Imagenes/SegundoImagenes/In_On_Under.jpg); */
-    background-color: white;
+    background-image: url(../Imagenes/CuartoImagenes/CAN-CANT.jpg);
     margin: auto;
     text-decoration: none;
     width: 35%;
@@ -173,8 +169,7 @@ nav ul li a:hover{
 }
 
 .Taller4{
-    /* background-image: url(../Imagenes/SegundoImagenes/Objects.jpg); */
-    background-color: white;
+    background-image: url(../Imagenes/CuartoImagenes/COMPLETE\ DIALOGES.jpg);
     margin: auto;
     text-decoration: none;
     width: 35%;
