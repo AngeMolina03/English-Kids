@@ -8,7 +8,7 @@
 </head>
 <body>
     
-
+    <div class="FondoImagen"></div>
     <a class="Casita" href="../Segundo.html"></a>
 
     <div class="Bienvenida">
@@ -32,7 +32,7 @@
          
         <p>1.What is this object? </p>
         
-        <img src="../Imagenes/SegundoTaller4/Sharpener.png" alt="">
+        <img src="../Imagenes/SegundoTaller4/Sharpener.png" class="Imagen" alt="">
         <br><br>
 
         <label>
@@ -56,7 +56,7 @@
     
         <p>2.What is this object? </p>
 
-        <img src="../Imagenes/SegundoTaller4/Book.png" class="Book" alt="">
+        <img src="../Imagenes/SegundoTaller4/Book.png" class="Imagen" alt="">
         <br><br>
 
         <label>
@@ -80,7 +80,7 @@
     
         <p>3.What is this object? </p>
 
-        <img src="../Imagenes/SegundoTaller4/Pencil.jpg"  alt="">
+        <img src="../Imagenes/SegundoTaller4/Pencil.jpg" class="Imagen" alt="">
         <br><br>
 
             <label>
@@ -103,7 +103,7 @@
     <div class="Preguntas">
     
         <p>4.What is this object? </p>
-        <img src="../Imagenes/SegundoTaller4/Eraser.png"  alt="">
+        <img src="../Imagenes/SegundoTaller4/Eraser.png" class="Imagen"  alt="">
         <br><br>
 
         <label>
@@ -126,7 +126,7 @@
     <div class="Preguntas">
     
         <p>5.What object is this? </p>
-        <img src="../Imagenes/SegundoTaller4/Backpack.jpg" class="Backpack"  alt="">
+        <img src="../Imagenes/SegundoTaller4/Backpack.jpg" class="Imagen"  alt="">
         <br><br>
 
         <label>
@@ -156,7 +156,7 @@
         if(isset($_POST['Calificar'])){
             echo "<div class='VentanaOpaca' id='VentanaOpaca'>";
             echo "<div class='BotonCalificar' id='VentanaCalificacion'>
-            <a href='javascript:Cerrar()'>x</a>";
+            <a href='javascript:Cerrar()' class='X' >x</a>";
 
             $Respuesta1 = $_POST['Respuesta1'];
             $Respuesta2 = $_POST['Respuesta2'];
