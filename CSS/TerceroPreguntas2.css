@@ -9,7 +9,7 @@ body{
 
 .Bienvenida{
     width: 60%;
-    background-image: url(../Imagenes/TerceroImagenes/OPPOSITES.jpg);
+    background-image: url(../Imagenes/TerceroImagenes/LIKESANDDISLIKES.jpg);
     background-size: cover;
     box-sizing: border-box;
     background-position: center;
@@ -35,6 +35,9 @@ body{
     border: 2px solid black;
     padding: 20px;
     margin: 10px auto;
+}
+.imagen{
+    
 }
 
 p{

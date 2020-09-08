@@ -22,29 +22,30 @@
 
     <div class="Video">
     
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/3Posbu-VKxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3jZqFjCJIiI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
     </div>
 
     <form action="TerceroPreguntas2.php" method="post">
 
     <div class="Preguntas">
+        <div class="imagen">
+            <img src="../Imagenes/TerceroTaller2/Tom&Susan.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="Preguntas">
          
-        <p>1.What time is it? </p>
-        
-        <img src="../Imagenes/TerceroTaller3/uno.png" alt="">
-        <br><br>
+        <p>1. Tom doesn’t like cake </p>
 
         <label>
-            <input type="radio" name="Respuesta1" value="It’s  seven o’ clock" > It’s  seven o’ clock
+            <input type="radio" name="Respuesta1" value="True" > True
         </label>
         <br>
         <label>
-            <input type="radio" name="Respuesta1" value="It’s  nine o’ clock" >	It’s  nine o’ clock
+            <input type="radio" name="Respuesta1" value="False" > False	
         </label>
         <br>
-        <label>
-            <input type="radio" name="Respuesta1" value="It’s twelve o’ clock" > It’s twelve o’ clock
-        </label>
         <label class="oculto">
             <input type="radio" name="Respuesta1" value="Vacio" checked>
         </label>
@@ -53,22 +54,16 @@
 
     <div class="Preguntas">
     
-        <p>2.What time is it? </p>
-
-        <img src="../Imagenes/TerceroTaller3/dos.png" alt="">
-        <br><br>
+        <p>2. Susan likes apples </p>
 
         <label>
-            <input type="radio" name="Respuesta2" value="It’s two o’ clock"> It’s two o’ clock 
+            <input type="radio" name="Respuesta2" value="True"> True 
         </lab>
         <br>
         <label>
-            <input type="radio" name="Respuesta2" value="It’s five o’ clock"> It’s five o’ clock
+            <input type="radio" name="Respuesta2" value="False"> False
         </label>
         <br>
-        <label>
-            <input type="radio" name="Respuesta2" value="It’s ten o’ clock"> It’s ten o’ clock
-        </label>
         <label class="oculto">
             <input type="radio" name="Respuesta2" value="Vacio" checked>
         </label>
@@ -77,23 +72,17 @@
 
     <div class="Preguntas">
     
-        <p>3.What time is it?</p>
+        <p>3. Tom likes eggs</p>
 
-        <img src="../Imagenes/TerceroTaller3/tres.png" alt="">
-        <br><br>
-
-            <label>
-                <input type="radio" name="Respuesta3" value="It’s one o’clock" > It’s one o’clock
-            </label>
-            <br>
-            <label>
-                <input type="radio" name="Respuesta3" value="It’s three o’ clock"> It’s three o’ clock
-            </label>
-            <br>
-            <label>
-                <input type="radio" name="Respuesta3" value="It’s six o’ clock"> It’s six o’ clock
-            </label>
-            <label class="oculto">
+        <label>
+            <input type="radio" name="Respuesta3" value="True" > True
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="Respuesta3" value="False"> False
+        </label>
+        <br>
+        <label class="oculto">
             <input type="radio" name="Respuesta3" value="Vacio" checked>
         </label>
 
@@ -101,23 +90,16 @@
 
     <div class="Preguntas">
     
-        <p>4.What time is it? </p>
-        <br>
-
-        <img src="../Imagenes/TerceroTaller3/cuatro.png" alt="">
-        <br><br>
+        <p>4. Susan doesn’t like pizza</p>
 
         <label>
-            <input type="radio" name="Respuesta4" value="It’s nine o’ clock"> It’s nine o’ clock
+            <input type="radio" name="Respuesta4" value="True"> True
         </label>
         <br>
         <label>
-            <input type="radio" name="Respuesta4" value="It’s twelve o’ clock"> It’s twelve o’ clock
+            <input type="radio" name="Respuesta4" value="False"> False
         </label>
         <br>
-        <label>
-            <input type="radio" name="Respuesta4" value="It’s  five o’ clock"> It’s  five o’ clock
-        </label>
         <label class="oculto">
             <input type="radio" name="Respuesta4" value="Vacio" checked>
         </label>
@@ -126,23 +108,16 @@
 
     <div class="Preguntas">
     
-        <p>5.What time is it? </p>
-        <br>
-        
-        <img src="../Imagenes/TerceroTaller3/cinco.png" alt="">
-        <br><br>
+        <p>5. Tom likes tomato </p>
 
         <label>
-            <input type="radio" name="Respuesta5" value="It’s seven o’ clock"> It’s seven o’ clock
+            <input type="radio" name="Respuesta5" value="True"> True
         </label>
         <br>
         <label>
-            <input type="radio" name="Respuesta5" value="It’s three o’ clock"> It’s three o’ clock
+            <input type="radio" name="Respuesta5" value="False"> False
         </label>
         <br>
-        <label>
-            <input type="radio" name="Respuesta5" value="Its’s nine o’ clock"> Its’s nine o’ clock
-        </label>
         <label class="oculto">
             <input type="radio" name="Respuesta5" value="Vacio" checked>
         </label>
@@ -168,23 +143,23 @@
             $Respuesta5 = $_POST['Respuesta5'];
             $Calificacion = 0;
  
-            if($Respuesta1=="It’s  seven o’ clock"){
+            if($Respuesta1=="False"){
                 $Calificacion++;
             }
             
-            if($Respuesta2== "It’s five o’ clock"){
+            if($Respuesta2== "True"){
                 $Calificacion++;
             }
             
-            if($Respuesta3== "It’s one o’clock"){
+            if($Respuesta3== "True"){
                 $Calificacion++;
             }
             
-            if($Respuesta4== "It’s nine o’ clock"){
+            if($Respuesta4== "False"){
                 $Calificacion++;
             }
             
-            if($Respuesta5== "It’s three o’ clock"){
+            if($Respuesta5== "False"){
                 $Calificacion++;
             }
             

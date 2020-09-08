@@ -31,7 +31,7 @@
          
         <p>1.What time is it? </p>
         
-        <img src="../Imagenes/TerceroTaller3/uno.png" alt="">
+        <img src="../Imagenes/CuartoTaller1/primera" alt="">
         <br><br>
 
         <label>
