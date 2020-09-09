@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LIKES AND DISLIKES</title>
-    <link rel="stylesheet" href="../CSS/TerceroPreguntas2.css">
+    <title>CAN-CAN'T</title>
+    <link rel="stylesheet" href="../CSS/CuartoPreguntas3.css">
 </head>
 <body>
     
 
-    <a class="Casita" href="../Tercero.html"></a>
+    <a class="Casita" href="../Cuarto.html"></a>
 
     <div class="Bienvenida">
         
@@ -22,28 +22,24 @@
 
     <div class="Video">
     
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/3jZqFjCJIiI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/oCAZMW4jMX8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
-    <form action="TerceroPreguntas2.php" method="post">
+    <form action="CuartoPreguntas3.php" method="post">
 
     <div class="Preguntas">
-        
-        <img src="../Imagenes/TerceroTaller2/Tom&Susan.jpg" alt="">
-        
+        <img src="../Imagenes/CuartoTaller3/primera.png" alt="">
     </div>
 
     <div class="Preguntas">
          
-        <p>1. Tom doesn’t like cake </p>
-
+        <p>1. Simon cant ride skateboard</p>
         <label>
             <input type="radio" name="Respuesta1" value="True" > True
         </label>
         <br>
         <label>
-            <input type="radio" name="Respuesta1" value="False" > False	
+            <input type="radio" name="Respuesta1" value="False" > False 	
         </label>
         <br>
         <label class="oculto">
@@ -54,8 +50,7 @@
 
     <div class="Preguntas">
     
-        <p>2. Susan likes apples </p>
-
+        <p>2. Sarah can paint </p>
         <label>
             <input type="radio" name="Respuesta2" value="True"> True 
         </lab>
@@ -72,17 +67,16 @@
 
     <div class="Preguntas">
     
-        <p>3. Tom likes eggs</p>
-
-        <label>
-            <input type="radio" name="Respuesta3" value="True" > True
-        </label>
-        <br>
-        <label>
-            <input type="radio" name="Respuesta3" value="False"> False
-        </label>
-        <br>
-        <label class="oculto">
+        <p>3. Simon cant play basketball</p>
+            <label>
+                <input type="radio" name="Respuesta3" value="True" > True
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Respuesta3" value="False"> False
+            </label>
+            <br>
+            <label class="oculto">
             <input type="radio" name="Respuesta3" value="Vacio" checked>
         </label>
 
@@ -90,10 +84,9 @@
 
     <div class="Preguntas">
     
-        <p>4. Susan doesn’t like pizza</p>
-
+        <p>4. Sarah can sing </p>
         <label>
-            <input type="radio" name="Respuesta4" value="True"> True
+            <input type="radio" name="Respuesta4" value="True"> True        
         </label>
         <br>
         <label>
@@ -108,8 +101,7 @@
 
     <div class="Preguntas">
     
-        <p>5. Tom likes tomato </p>
-
+        <p>5. Simon can play the guitar </p>
         <label>
             <input type="radio" name="Respuesta5" value="True"> True
         </label>
@@ -143,7 +135,7 @@
             $Respuesta5 = $_POST['Respuesta5'];
             $Calificacion = 0;
  
-            if($Respuesta1=="False"){
+            if($Respuesta1=="True"){
                 $Calificacion++;
             }
             
@@ -151,11 +143,11 @@
                 $Calificacion++;
             }
             
-            if($Respuesta3== "True"){
+            if($Respuesta3== "False"){
                 $Calificacion++;
             }
             
-            if($Respuesta4== "False"){
+            if($Respuesta4== "True"){
                 $Calificacion++;
             }
             

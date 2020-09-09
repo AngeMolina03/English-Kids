@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LIKES AND DISLIKES</title>
-    <link rel="stylesheet" href="../CSS/TerceroPreguntas2.css">
+    <title>SOME-ANY</title>
+    <link rel="stylesheet" href="../CSS/CuartoPreguntas2.css">
 </head>
 <body>
     
 
-    <a class="Casita" href="../Tercero.html"></a>
+    <a class="Casita" href="../Cuarto.html"></a>
 
     <div class="Bienvenida">
         
@@ -22,28 +22,24 @@
 
     <div class="Video">
     
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/3jZqFjCJIiI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/zbQAIJK7chE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
-    <form action="TerceroPreguntas2.php" method="post">
-
-    <div class="Preguntas">
-        
-        <img src="../Imagenes/TerceroTaller2/Tom&Susan.jpg" alt="">
-        
-    </div>
+    <form action="CuartoPreguntas2.php" method="post">
 
     <div class="Preguntas">
          
-        <p>1. Tom doesn’t like cake </p>
+        <p>1. _________ of his travels were amazing</p>
+        
+        <img src="../Imagenes/CuartoTaller2/primera.jpg" alt="">
+        <br><br>
 
         <label>
-            <input type="radio" name="Respuesta1" value="True" > True
+            <input type="radio" name="Respuesta1" value="Any" > Any
         </label>
         <br>
         <label>
-            <input type="radio" name="Respuesta1" value="False" > False	
+            <input type="radio" name="Respuesta1" value="Some" > Some 	
         </label>
         <br>
         <label class="oculto">
@@ -54,14 +50,17 @@
 
     <div class="Preguntas">
     
-        <p>2. Susan likes apples </p>
+        <p>2. I don't like _________ of those shoes </p>
+
+        <img src="../Imagenes/CuartoTaller2/segunda.jpg" alt="">
+        <br><br>
 
         <label>
-            <input type="radio" name="Respuesta2" value="True"> True 
+            <input type="radio" name="Respuesta2" value="Some"> Some 
         </lab>
         <br>
         <label>
-            <input type="radio" name="Respuesta2" value="False"> False
+            <input type="radio" name="Respuesta2" value="Any"> Any
         </label>
         <br>
         <label class="oculto">
@@ -72,17 +71,20 @@
 
     <div class="Preguntas">
     
-        <p>3. Tom likes eggs</p>
+        <p>3. I see _________ cats on my way home today</p>
 
-        <label>
-            <input type="radio" name="Respuesta3" value="True" > True
-        </label>
-        <br>
-        <label>
-            <input type="radio" name="Respuesta3" value="False"> False
-        </label>
-        <br>
-        <label class="oculto">
+        <img src="../Imagenes/CuartoTaller2/tercera.jpg" width="200" height="200" alt="">
+        <br><br>
+
+            <label>
+                <input type="radio" name="Respuesta3" value="Any" > Any
+            </label>
+            <br>
+            <label>
+                <input type="radio" name="Respuesta3" value="some"> some
+            </label>
+            <br>
+            <label class="oculto">
             <input type="radio" name="Respuesta3" value="Vacio" checked>
         </label>
 
@@ -90,14 +92,18 @@
 
     <div class="Preguntas">
     
-        <p>4. Susan doesn’t like pizza</p>
+        <p>4. I don't have _________ money </p>
+        <br>
+
+        <img src="../Imagenes/CuartoTaller2/cuarta.jpg" width="200" height="200" alt="">
+        <br><br>
 
         <label>
-            <input type="radio" name="Respuesta4" value="True"> True
+            <input type="radio" name="Respuesta4" value="Some"> Some
         </label>
         <br>
         <label>
-            <input type="radio" name="Respuesta4" value="False"> False
+            <input type="radio" name="Respuesta4" value="Any"> Any
         </label>
         <br>
         <label class="oculto">
@@ -108,14 +114,18 @@
 
     <div class="Preguntas">
     
-        <p>5. Tom likes tomato </p>
+        <p>5. You spilled _________ milk </p>
+        <br>
+        
+        <img src="../Imagenes/CuartoTaller2/quinta.jpg" alt="">
+        <br><br>
 
         <label>
-            <input type="radio" name="Respuesta5" value="True"> True
+            <input type="radio" name="Respuesta5" value="Any"> Any
         </label>
         <br>
         <label>
-            <input type="radio" name="Respuesta5" value="False"> False
+            <input type="radio" name="Respuesta5" value="Some"> Some
         </label>
         <br>
         <label class="oculto">
@@ -143,23 +153,23 @@
             $Respuesta5 = $_POST['Respuesta5'];
             $Calificacion = 0;
  
-            if($Respuesta1=="False"){
+            if($Respuesta1=="Some"){
                 $Calificacion++;
             }
             
-            if($Respuesta2== "True"){
+            if($Respuesta2== "Some"){
                 $Calificacion++;
             }
             
-            if($Respuesta3== "True"){
+            if($Respuesta3== "Some"){
                 $Calificacion++;
             }
             
-            if($Respuesta4== "False"){
+            if($Respuesta4== "Any"){
                 $Calificacion++;
             }
             
-            if($Respuesta5== "False"){
+            if($Respuesta5== "Some"){
                 $Calificacion++;
             }
             
