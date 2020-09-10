@@ -31,7 +31,6 @@
 .Preguntas{
     width: 60%;
     background-image: url(../Imagenes/FondoTaller.jpg);
-    /* background-image: url(../Imagenes/FondoTaller2.jpg); */
     background-size: cover;
     box-sizing: border-box;
     border-radius: 15px;
@@ -45,13 +44,11 @@ p{
     font-weight: bolder;
     letter-spacing: 2px;
     font-size: 20px;
-    /* color: white; */
 }
 
 label{
     font-family: 'Another Hand', cursive;
     font-size: 18px;
-    /* color: white; */
 }
 
 
@@ -112,6 +109,8 @@ iframe{
 
 .Calificar:hover{
     background-color: #5772bb62;
+    border: 3px solid black;
+    color: black;
     transform: scale(1.1);
     transition: 0.6s;
     cursor: pointer;
@@ -144,8 +143,7 @@ iframe{
     text-align: center; 
     margin: 85px 130px 0 0px;  
     padding: 20px; 
-    /* border: 3px solid red; */
-    /* display: inline; */
+
 }
 
 .VentanaOpaca{

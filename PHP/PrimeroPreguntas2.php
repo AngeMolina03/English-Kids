@@ -57,7 +57,7 @@
     
         <p>2.The pepper is _______</p>
 
-        <img src="../Imagenes/PrimeroTaller2/Yellow.jpg" alt="">
+        <img src="../Imagenes/PrimeroTaller2/Yellow.jpg" class="Yellow" alt="">
         <br><br>
 
         <label>

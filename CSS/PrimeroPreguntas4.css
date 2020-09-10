@@ -31,7 +31,6 @@
 .Preguntas{
     width: 60%;
     background-image: url(../Imagenes/FondoTaller.jpg);
-    /* background-image: url(../Imagenes/FondoTaller2.jpg); */
     background-size: cover;
     box-sizing: border-box;
     border-radius: 15px;
@@ -45,20 +44,17 @@ p{
     font-weight: bolder;
     letter-spacing: 2px;
     font-size: 20px;
-    /* color: white; */
 }
 
 label{
     font-family: 'Another Hand', cursive;
     font-size: 18px;
-    /* color: white; */
 }
 
 
 .Video{
     width: 60%;
     background-image: url(../Imagenes/FondoTaller.jpg);
-    /* background-image: url(../Imagenes/FondoTaller2.jpg); */
     background-size: cover;
     box-sizing: border-box;
     border-radius: 15px;
@@ -113,6 +109,8 @@ iframe{
 
 .Calificar:hover{
     background-color: #5772bb62;
+    border: 3px solid black;
+    color: black;
     transform: scale(1.1);
     transition: 0.6s;
     cursor: pointer;
@@ -124,17 +122,26 @@ iframe{
     top: 20%;
     width: 60%;
     height: 300px;
-    background-color: hotpink;
+    background-image:url(../Imagenes/FondoCalificacion.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 35px 0px 35px 0px; 
+    -moz-border-radius: 35px 0px 35px 0px; 
+    -webkit-border-radius: 35px 0px 35px 0px; 
+    border: 2px solid #5878ca;
     text-align: center;
     display: block;
     
 }
 
 .ParrafoCalificacion{
-    font-size: 40px;
-    font-family: 'Another Hand', cursive;
-    color: white;
-    margin-top: 120px;
+    font-family: 'Another Hand', cursive; 
+    color: white; 
+    font-size: 30px; 
+    font-weight: 800; 
+    text-align: center; 
+    margin: 85px 130px 0 0px;  
+    padding: 20px;
 }
 
 .VentanaOpaca{

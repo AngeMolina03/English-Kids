@@ -2,12 +2,7 @@
     margin: 0;
     padding: 0;
 }
-body{
-    background-image: url(../Imagenes/SegundoImagenes/FondoRojo3.jpg);
-    background-position: center;
-    background-attachment: contain;
-    background-size: cover;
-}
+
 #particles-js{
     background-image: url(../Imagenes/SecondGrade.jpg);
     background-position: center;
@@ -81,40 +76,39 @@ nav ul li a:hover{
 }
 
 .Temas{
-    padding-right: 210px;
-    margin-bottom: 200px;
-    text-align: center;
+    font-size: 30px;
+    padding: 50px;
+    padding-top: 100px;
 }
 
 .Temas h2,p{
-    font-size:32px;
     color: white;
     font-family: 'Another Hand', cursive;
 }
 
 .Fondo{
-    background-size: cover;
-    background-attachment: contain;
-    background-position: center;
+    background-color: red;
 }
 
 .PrimerSection{
-    padding-left: 500px;
     display: flex;
+    float: left;
     width: 42%;
-    height: 100px;
-    padding-top: 250px;
+    height: 600px;
     align-items: center;
     justify-content: center;
+    border-right: 12px double white;
 }
 
 .SegundoSection{
-    margin-left: 10%;
-    width: 80%;
-    height: 400%;
+    width: 57%;
+    height: 200%;
     display: flex;
-    padding-bottom: 90px;
+    position: end;
+    align-items: center;
+    
 }
+
 
 .Parte1{
     width: 100%;
@@ -124,61 +118,63 @@ nav ul li a:hover{
     justify-content: center;
     flex-wrap: wrap;
     margin-left: 20px;
+    
 }
 
+
 .Taller1{
-    background-image: url(../Imagenes/SegundoImagenes/Daily_Routins.jpg);
     margin: auto;
     text-decoration: none;
     width: 35%;
-    height: 150px;
+    height: 85px;
+    background-image: url(../Imagenes/SegundoImagenes/Daily_Routins.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
     border-radius: 10px;
-    padding: 60px 40px;
+    padding: 80px 40px;
     transition: 0.8s;
 }
 
 .Taller2{
-    background-image: url(../Imagenes/SegundoImagenes/Family.jpg);
     margin: auto;
     text-decoration: none;
     width: 35%;
-    height: 150px;
+    height: 85px;
+    background-image: url(../Imagenes/SegundoImagenes/Family.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
     border-radius: 10px;
-    padding: 60px 40px;
+    padding: 80px 40px;
     transition: 0.8s;
 }
 
 .Taller3{
-    background-image: url(../Imagenes/SegundoImagenes/In_On_Under.jpg);
     margin: auto;
     text-decoration: none;
     width: 35%;
-    height: 150px;
+    height: 85px;
+    background-image: url(../Imagenes/SegundoImagenes/In_On_Under.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
     border-radius: 10px;
-    padding: 60px 40px;
+    padding: 80px 40px;
     transition: 0.8s;
 }
 
 .Taller4{
-    background-image: url(../Imagenes/SegundoImagenes/Objects.jpg);
     margin: auto;
     text-decoration: none;
     width: 35%;
-    height: 150px;
+    height: 85px;
+    background-image: url(../Imagenes/SegundoImagenes/Objects.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
     border-radius: 10px;
-    padding: 60px 40px;
+    padding: 80px 40px;
     transition: 0.8s;
 }
 
@@ -202,3 +198,5 @@ nav ul li a:hover{
     transform: scale(1.1);
     transition: 0.8s;
 }
+
+
