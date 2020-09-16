@@ -139,7 +139,7 @@
         if(isset($_POST['Calificar'])){
             echo "<div class='VentanaOpaca' id='VentanaOpaca'>";
             echo "<div class='BotonCalificar' id='VentanaCalificacion'>
-            <a href='javascript:Cerrar()'>x</a>";
+            <a href='javascript:Cerrar()' Class='X' >X</a>";
 
             $Respuesta1 = $_POST['Respuesta1'];
             $Respuesta2 = $_POST['Respuesta2'];
