@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../CSS/CuartoPreguntas1.css">
 </head>
 <body>
-    
+    <div class="FondoImagen"></div>
 
     <a class="Casita" href="../Cuarto.html"></a>
 

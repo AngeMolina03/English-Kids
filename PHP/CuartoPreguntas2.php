@@ -8,7 +8,7 @@
 </head>
 <body>
     
-
+    <div class="FondoImagen"></div>
     <a class="Casita" href="../Cuarto.html"></a>
 
     <div class="Bienvenida">

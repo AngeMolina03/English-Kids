@@ -1,9 +1,12 @@
-body{
+.FondoImagen{
     background-image: url(../Imagenes/FondoCalificar.jpg);
-    /* background-position: center;
-    /* background-size: cover; */
-    /* width: 100%;
-    height: 100%; */
+    position: fixed;
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
     
 }
 
@@ -28,7 +31,6 @@ body{
 .Preguntas{
     width: 60%;
     background-image: url(../Imagenes/FondoTaller.jpg);
-    /* background-image: url(../Imagenes/FondoTaller2.jpg); */
     background-size: cover;
     box-sizing: border-box;
     border-radius: 15px;
@@ -36,22 +38,22 @@ body{
     padding: 20px;
     margin: 10px auto;
 }
+.A{
+    width: 350PX;
+    height: 350PX;
+}
 
 p{
     font-family: 'Another Hand', cursive;
     font-weight: bolder;
     letter-spacing: 2px;
     font-size: 20px;
-    /* color: white; */
 }
 
 label{
     font-family: 'Another Hand', cursive;
     font-size: 18px;
-    /* color: white; */
 }
-
-
 .Video{
     width: 60%;
     background-image: url(../Imagenes/FondoTaller.jpg);
@@ -109,6 +111,8 @@ iframe{
 
 .Calificar:hover{
     background-color: #5772bb62;
+    border: 3px solid black;
+    color: black;
     transform: scale(1.1);
     transition: 0.6s;
     cursor: pointer;
@@ -120,7 +124,7 @@ iframe{
     top: 20%;
     width: 60%;
     height: 300px;
-    background-image:url(../Imagenes/FondoTaller.jpg);
+    background-image:url(../Imagenes/FondoCalificacion.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 35px 0px 35px 0px; 
@@ -135,12 +139,11 @@ iframe{
 
 .ParrafoCalificacion{
     font-family: 'Another Hand', cursive; 
-    color: black; 
-    font-size: 18px; 
-    font-weight: 400; 
+    color: white; 
+    font-size: 30px; 
+    font-weight: 800; 
     text-align: center; 
-    margin: 0 0 25px; 
-    overflow: hidden; 
+    margin: 85px 130px 0 0px;  
     padding: 20px; 
 }
 
@@ -159,4 +162,17 @@ iframe{
 
 .oculto{
     display: none;
+}
+
+.X{
+    text-decoration: none;
+    color: white;
+    border-radius: 50%;
+    padding: 5px 8px;
+    background-color: rgb(72, 72, 240);
+    border-bottom: 2px solid blue;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border-right: 4px solid blue;
 }
