@@ -87,7 +87,9 @@ nav ul li a:hover{
 }
 
 .Fondo{
-    background-color: red;
+    /* background-color: red; */
+    background-image: url(../Imagenes/SegundoImagenes/FondoSegundo3.jpg);
+    background-size: cover;
 }
 
 .PrimerSection{

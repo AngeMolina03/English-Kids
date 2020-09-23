@@ -94,8 +94,8 @@ nav ul li a:hover{
 }
 
 .Fondo{
-    background-color: purple;
-    /* background-image: url(../Imagenes/PrimeroImagenes/Fondo2Primero.jpg); */
+    /* background-color: purple; */
+    background-image: url(../Imagenes/QuintoImagenes/FondoQuinto2.jpg);
     background-size: cover;
 }
 
