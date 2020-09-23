@@ -12,14 +12,14 @@
     top: 1px; */
 
     font-family: 'Another Hand', cursive;
-    width: 400px;
+    width: 250px;
     /* border-radius: 2%; */
     position: fixed;
     left: -400px;
-    top: 80px;
+    top: 66px;
     z-index: 20;
     transition: ease-out 1s;
-    height: 100vh;
+    height: 350px;
 }
 
 .Imagenes{
@@ -31,18 +31,21 @@
 
 .FondoMenu{
     position: absolute;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.5);
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
+    border-radius: 0px 0px 30px 0px; 
+    -moz-border-radius: 0px 0px 30px 0px; 
+    -webkit-border-radius: 0px 0px 30px 0px;
 }
 
 .Menu ul li{
     list-style: none;
-    margin-left: -40px;
+    margin-left: -10px;
     margin-top: 5px;
-    
+    /* border: 3px solid red; */
 }
 
 .Menu ul li a{
@@ -64,11 +67,11 @@
     transform: translateX(10px);
 }
 
-/* .Menu hr{
-    border: 6px, solid rgb(11, 71, 11);
-    width: 80%;
-    margin-left: 10%;
-} */
+.Menu hr{
+    
+    width: 60%;
+    margin: 0 auto;
+}
 
 #abrirMenu{
     height: 50px;
