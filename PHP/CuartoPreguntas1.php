@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../CSS/CuartoPreguntas1.css">
 </head>
 <body>
-    
+    <div class="FondoImagen"></div>
 
     <a class="Casita" href="../Cuarto.html"></a>
 
@@ -159,7 +159,7 @@
         if(isset($_POST['Calificar'])){
             echo "<div class='VentanaOpaca' id='VentanaOpaca'>";
             echo "<div class='BotonCalificar' id='VentanaCalificacion'>
-            <a href='javascript:Cerrar()'>x</a>";
+            <a href='javascript:Cerrar()' Class='X' >X</a>";
 
             $Respuesta1 = $_POST['Respuesta1'];
             $Respuesta2 = $_POST['Respuesta2'];

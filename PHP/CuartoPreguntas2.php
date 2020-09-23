@@ -8,7 +8,7 @@
 </head>
 <body>
     
-
+    <div class="FondoImagen"></div>
     <a class="Casita" href="../Cuarto.html"></a>
 
     <div class="Bienvenida">
@@ -52,7 +52,7 @@
     
         <p>2. I don't like _________ of those shoes </p>
 
-        <img src="../Imagenes/CuartoTaller2/segunda.jpg" alt="">
+        <img src="../Imagenes/CuartoTaller2/Segunda.jpg" alt="">
         <br><br>
 
         <label>
@@ -144,7 +144,7 @@
         if(isset($_POST['Calificar'])){
             echo "<div class='VentanaOpaca' id='VentanaOpaca'>";
             echo "<div class='BotonCalificar' id='VentanaCalificacion'>
-            <a href='javascript:Cerrar()'>x</a>";
+            <a href='javascript:Cerrar()' Class='X' >X</a>";
 
             $Respuesta1 = $_POST['Respuesta1'];
             $Respuesta2 = $_POST['Respuesta2'];
