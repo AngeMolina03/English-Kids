@@ -15,3 +15,19 @@ cierra.addEventListener("click", function(){
     cierra.style.zIndex="1";
     abre.style.opacity="1";
 })
+
+
+
+// var contenedor=document.getElementById('contend');
+
+// function mostrarElementos(){
+//     var scrollPantalla=document.documentElement.scrollTop;
+//     var alturaElemento= contenedor.offsetTop;
+
+//     if(alturaElemento 200 < scrollPantalla){
+//         document.getElementById('fondomenu').classList.add("centro");
+        
+//     }
+// }
+
+// window.addEventListener("scroll", mostrarElementos);
