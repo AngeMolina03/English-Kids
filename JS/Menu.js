@@ -15,3 +15,21 @@ cierra.addEventListener("click", function(){
     cierra.style.zIndex="1";
     abre.style.opacity="1";
 })
+
+
+
+var contenedor=document.getElementById('contend');
+
+function mostrarElementos(){
+    var scrollPantalla=document.documentElement.scrollTop;
+    var alturaElemento= contenedor.offsetTop;
+
+    if(alturaElemento-200< scrollPantalla){
+        document.getElementById('fondomenu').style.background= 'rgba(0,0,0,0)';
+        
+    }else{
+        document.getElementById('fondomenu').style.background= 'rgba(0,0,0,0.5)';
+    }
+}
+
+window.addEventListener("scroll", mostrarElementos);

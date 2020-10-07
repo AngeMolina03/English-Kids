@@ -23,7 +23,8 @@
 
 .FondoMenu{
     position: absolute;
-    background-color: rgba(255, 255, 255, 0.5);
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    background-color: rgba(194, 11, 194, 0.521); 
     top: 0;
     left: 0;
     bottom: 0;
@@ -32,6 +33,8 @@
     -moz-border-radius: 0px 0px 30px 0px; 
     -webkit-border-radius: 0px 0px 30px 0px;
 }
+
+
 
 .Menu ul li{
     list-style: none;
@@ -51,9 +54,37 @@
 
 }
 
-.Menu ul li a:hover{
+.primero:hover{
     border-radius: 8px;
     color: rgb(0, 81, 255);
+    background-color: white;
+    transform: translateX(10px);
+}
+
+.segundo:hover{
+    border-radius: 8px;
+    color: red;
+    background-color: white;
+    transform: translateX(10px);
+}
+
+.tercero:hover{
+    border-radius: 8px;
+    color: green;
+    background-color: white;
+    transform: translateX(10px);
+}
+
+.cuarto:hover{
+    border-radius: 8px;
+    color: orange;
+    background-color: white;
+    transform: translateX(10px);
+}
+
+.quinto:hover{
+    border-radius: 8px;
+    color: purple;
     background-color: white;
     transform: translateX(10px);
 }
@@ -205,7 +236,7 @@
 	padding: 0; 
     display: flex;
     flex-wrap: wrap;
-    background-color:rgb(0, 183, 255);
+    background-color:rgb(16, 161, 245);
     border-radius: 0px px 150px 0px; 
     -moz-border-radius: 0px 0px 150px 0px; 
     -webkit-border-radius: 0px 0px 150px 0px; 
@@ -255,3 +286,12 @@
     font-size: 18px;
 }
 
+footer{
+    background-color: rgba(0, 0, 0, 0.568);
+    color: white;
+    margin-top: 200px;
+    font-family: 'Another Hand', cursive;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
