@@ -39,7 +39,7 @@
         </label>
         <br>
         <label>
-            <input type="radio" name="Respuesta1" value="about two times a week" > about two times a week
+            <input type="radio" name="Respuesta1" value="about two times a week" > About two times a week
         </label>
         <label class="oculto">
             <input type="radio" name="Respuesta1" value="Vacio" checked>
@@ -71,7 +71,7 @@
     
         <p>3. Do you have any hobbies?</p>
             <label>
-                <input type="radio" name="Respuesta3" value="I like singing" > I like singing
+                <input type="radio" name="Respuesta3" value="Yes, I like singing" > Yes, I like singing
             </label>
             <br>
             <label>
@@ -156,7 +156,7 @@
                 $Calificacion++;
             }
             
-            if($Respuesta3== "I like singing"){
+            if($Respuesta3== "Yes, I like singing"){
                 $Calificacion++;
             }
             

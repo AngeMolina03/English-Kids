@@ -30,7 +30,7 @@
 
     <div class="Preguntas">
          
-         <img src="../Imagenes/QuintoTaller2/Osito.jpg" class="Osito" alt="">
+         <img src="../Imagenes/QuintoTaller2/wh.jpg" width="750px" class="wh" alt="">
          
     </div>
 
@@ -40,15 +40,15 @@
         <br>
 
         <label>
-            <input type="radio" name="Respuesta1" value="We talk about a number" > We talk about a number
+            <input type="radio" name="Respuesta1" value="To talk about a number" > To talk about a number
         </label>
         <br>
         <label>
-            <input type="radio" name="Respuesta1" value="We talk about a place" > We talk about a place
+            <input type="radio" name="Respuesta1" value="To talk about a place" > To talk about a place
         </label>
         <br>
         <label>
-            <input type="radio" name="Respuesta1" value="We talk about time" > We talk about time
+            <input type="radio" name="Respuesta1" value="To talk about time" > To talk about time
         </label>
         <label class="oculto">
             <input type="radio" name="Respuesta1" value="Vacio" checked>
@@ -58,19 +58,19 @@
 
     <div class="Preguntas">
         
-        <p>2. He use <u>who</u>: </p>
+        <p>2. We use <u>who</u>: </p>
         <br>
 
         <label>
-            <input type="radio" name="Respuesta2" value="We talk about a person"> We talk about a person
+            <input type="radio" name="Respuesta2" value="To talk about a person"> To talk about a person
         </label>
         <br>
         <label>
-            <input type="radio" name="Respuesta2" value="We talk about a thing or an action"> We talk about a thing or an action
+            <input type="radio" name="Respuesta2" value="To talk about a thing or an action"> To talk about a thing or an action
         </label>
         <br>
         <label>
-            <input type="radio" name="Respuesta2" value="We talk about time"> We talk about time
+            <input type="radio" name="Respuesta2" value="To talk about time"> To talk about time
         </label>
         <label class="oculto">
             <input type="radio" name="Respuesta2" value="Vacio" checked>
@@ -84,15 +84,15 @@
         <br>
 
             <label>
-                <input type="radio" name="Respuesta3" value="We talk about a reason something happened" > We talk about a reason something happened
+                <input type="radio" name="Respuesta3" value="To talk about a reason something happened" > To talk about a reason something happened
             </label>
             <br>
             <label>
-                <input type="radio" name="Respuesta3" value="We talk about a place"> We talk about a place
+                <input type="radio" name="Respuesta3" value="To talk about a place"> To talk about a place
             </label>
             <br>
             <label>
-                <input type="radio" name="Respuesta3" value="We talk about a way something is done"> We talk about a way something is done
+                <input type="radio" name="Respuesta3" value="To talk about a way something is done"> To talk about a way something is done
             </label>
             <label class="oculto">
                 <input type="radio" name="Respuesta3" value="Vacio" checked>
@@ -106,15 +106,15 @@
         <br>
 
         <label>
-            <input type="radio" name="Respuesta4" value="We talk about a thing or an action"> We talk about a thing or an action
+            <input type="radio" name="Respuesta4" value="To talk about a thing or an action"> To talk about a thing or an action
         </label>
         <br>
         <label>
-            <input type="radio" name="Respuesta4" value="We talk about a number"> We talk about a number
+            <input type="radio" name="Respuesta4" value="To talk about a number"> To talk about a number
         </label>
         <br>
         <label>
-            <input type="radio" name="Respuesta4" value="We talk about a place"> We talk about a place
+            <input type="radio" name="Respuesta4" value="To talk about a place"> To talk about a place
         </label>
         <label class="oculto">
             <input type="radio" name="Respuesta4" value="Vacio" checked>
@@ -128,15 +128,15 @@
         <br>
 
         <label>
-            <input type="radio" name="Respuesta5" value="We talk about a reason"> We talk about a reason
+            <input type="radio" name="Respuesta5" value="To talk about a reason"> To talk about a reason
         </label>
         <br>
         <label>
-            <input type="radio" name="Respuesta5" value="We talk about a place"> We talk about a place
+            <input type="radio" name="Respuesta5" value="To talk about a place"> To talk about a place
         </label>
         <br>
         <label>
-            <input type="radio" name="Respuesta5" value="We talk about a number"> We talk about a number
+            <input type="radio" name="Respuesta5" value="To talk about a number"> To talk about a number
         </label>
         <label class="oculto">
             <input type="radio" name="Respuesta5" value="Vacio" checked>
@@ -163,23 +163,23 @@
             $Respuesta5 = $_POST['Respuesta5'];
             $Calificacion = 0;
 
-            if($Respuesta1=="We talk about time"){
+            if($Respuesta1=="To talk about time"){
                 $Calificacion++;
             }
             
-            if($Respuesta2== "We talk about a person"){
+            if($Respuesta2== "To talk about a person"){
                 $Calificacion++;
             }
             
-            if($Respuesta3== "We talk about a reason something haappened"){
+            if($Respuesta3== "To talk about a reason something happened"){
                 $Calificacion++;
             }
             
-            if($Respuesta4== "We talk about a thing or an action"){
+            if($Respuesta4== "To talk about a thing or an action"){
                 $Calificacion++;
             }
             
-            if($Respuesta5== "We talk about a place"){
+            if($Respuesta5== "To talk about a place"){
                 $Calificacion++;
             }
             

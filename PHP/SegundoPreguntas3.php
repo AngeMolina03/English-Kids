@@ -126,7 +126,7 @@
 
     <div class="Preguntas">
     
-        <p>5.Where is the green note?</p>
+        <p>5.Where is the pink note?</p>
         <br>
 
         <label>

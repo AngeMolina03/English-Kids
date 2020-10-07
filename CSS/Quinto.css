@@ -38,7 +38,6 @@ body{
     display: flex;
     height: 50px;
     position: absolute;
-    /* left: 750px; */
     top: 1px;
     font-weight: bolder;
     justify-content: flex-end;
@@ -70,15 +69,12 @@ nav ul li a:hover{
     border-radius: 10px;
     color: purple;
     background-color: whitesmoke;
-    /* background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5), white); */
 }
 
 
 .Entrada{
     height: 600px;
     width: 100%;
-    /* background-image: url(../Imagenes/FirstGrade.jpg); */
-    /* background-position: center; */
     background-size: cover;
 }
 
@@ -94,7 +90,6 @@ nav ul li a:hover{
 }
 
 .Fondo{
-    /* background-color: purple; */
     background-image: url(../Imagenes/QuintoImagenes/FondoQuinto2.jpg);
     background-size: cover;
 }

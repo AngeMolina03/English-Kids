@@ -183,7 +183,7 @@
                 $Calificacion++;
             }
 
-            if($Respuesta5== "Have breakfast"){
+            if($Respuesta5== "Have dinner"){
                 $Calificacion++;
             }
             

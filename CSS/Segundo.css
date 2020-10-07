@@ -87,7 +87,6 @@ nav ul li a:hover{
 }
 
 .Fondo{
-    /* background-color: red; */
     background-image: url(../Imagenes/SegundoImagenes/FondoSegundo3.jpg);
     background-size: cover;
 }
@@ -108,7 +107,6 @@ nav ul li a:hover{
     display: flex;
     position: end;
     align-items: center;
-    
 }
 
 
@@ -119,8 +117,7 @@ nav ul li a:hover{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    margin-left: 20px;
-    
+    margin-left: 20px; 
 }
 
 
