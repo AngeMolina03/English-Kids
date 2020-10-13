@@ -127,7 +127,7 @@
 
     <div class="Preguntas">
     
-        <p>5.Complete the following sequence: </p>
+        <p>5.The opposite of tall is… </p>
         <br>
         
         <img src="../Imagenes/TerceroTaller1/Short.jpg" alt="">

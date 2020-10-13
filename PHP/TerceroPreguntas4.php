@@ -23,7 +23,7 @@
     <form action="TerceroPreguntas4.php" method="post">
     
     <div class="Preguntas">
-        <p>Hello, my name is Alice and I have eight years old. I born in Barcelona, but I live is Canada since I was a baby. I like dancing and singing in my free time but what I like the most is going to the cinema with my friends. I don’t like pickles and  onions. I’m in third grade at school, my classmates and my teachers are so nice with me. There is always a lot of people around me. Also, I have a little brother called Mario and a cat called Blue.</p>
+        <p>Hello, my name is Alice and I am eight years old. I was born in Barcelona, but I live in Canada since I was a baby. I like dancing and singing in my free time but what I like the most is going to the cinema with my friends. I don’t like pickles and  onions. I’m in third grade at school, my classmates and my teachers are so nice with me. There is always a lot of people around me. Also, I have a little brother called Mario and a cat called Blue.</p>
         
         <img Class="A" src="../Imagenes/TerceroTaller4/Alice.jpg" alt="">
         

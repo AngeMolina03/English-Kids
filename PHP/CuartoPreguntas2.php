@@ -81,7 +81,7 @@
             </label>
             <br>
             <label>
-                <input type="radio" name="Respuesta3" value="some"> some
+                <input type="radio" name="Respuesta3" value="Some"> Some
             </label>
             <br>
             <label class="oculto">
@@ -157,7 +157,7 @@
                 $Calificacion++;
             }
             
-            if($Respuesta2== "Some"){
+            if($Respuesta2== "Any"){
                 $Calificacion++;
             }
             

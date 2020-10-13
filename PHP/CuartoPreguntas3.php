@@ -33,7 +33,7 @@
 
     <div class="Preguntas">
          
-        <p>1. Simon cant ride skateboard</p>
+        <p>1. Simon can't ride skateboard</p>
         <label>
             <input type="radio" name="Respuesta1" value="True" > True
         </label>
@@ -67,7 +67,7 @@
 
     <div class="Preguntas">
     
-        <p>3. Simon cant play basketball</p>
+        <p>3. Simon can't play basketball</p>
             <label>
                 <input type="radio" name="Respuesta3" value="True" > True
             </label>

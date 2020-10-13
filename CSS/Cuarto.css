@@ -89,8 +89,6 @@ nav ul li a:hover{
 .Fondo{
     background-image: url(../Imagenes/CuartoImagenes/FondoCuarto2.jpg);
     background-size: cover;
-    /* background-attachment: contain;
-    background-position: center;*/
 } 
 
 .PrimerSection{
