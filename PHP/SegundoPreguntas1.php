@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daily Routins</title>
     <link rel="stylesheet" href="../CSS/SegundoPreguntas1.css">
+    <link rel="shortcut icon" href="../Imagenes/Logo1.png" type="image/x-icon">
 </head>
 <body>
     <div class="FondoImagen"></div>  
@@ -31,15 +32,20 @@
 
     <div class="Preguntas">
          
+        <br>
+        <p>Resuelve las preguntas según la imagen de la rutina</p>
+        <br><br>
          
-         <img src="../Imagenes/SegundoTaller1/DailyRoutins.jpg" class="Imagen">
-         <br>
+        <img src="../Imagenes/SegundoTaller1/DailyRoutins.jpg" class="Imagen">
+
  
      </div>
 
     <div class="Preguntas">
          
-        <p>1.What is the first thing I do in the morning?</p>
+        <p>
+            1.What is the first thing I do in the morning?
+        </p>
         
 
         <label>

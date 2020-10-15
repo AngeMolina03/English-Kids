@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Objects</title>
     <link rel="stylesheet" href="../CSS/SegundoPreguntas4.css">
+    <link rel="shortcut icon" href="../Imagenes/Logo1.png" type="image/x-icon">
 </head>
 <body>
     
@@ -30,7 +31,10 @@
 
     <div class="Preguntas">
          
-        <p>1.What is this object? </p>
+        <p>
+            Marca la opción correcta <br><br>
+            1.What is this object? 
+        </p>
         
         <img src="../Imagenes/SegundoTaller4/Sharpener.png" class="Imagen" alt="">
         <br><br>
@@ -54,7 +58,10 @@
 
     <div class="Preguntas">
     
-        <p>2.What is this object? </p>
+        <p>
+            Marca la opción correcta <br><br>
+            2.What is this object? 
+        </p>
 
         <img src="../Imagenes/SegundoTaller4/Book.png" class="Imagen" alt="">
         <br><br>
@@ -78,7 +85,10 @@
 
     <div class="Preguntas">
     
-        <p>3.What is this object? </p>
+        <p>
+            Marca la opción correcta <br><br>
+            3.What is this object? 
+        </p>
 
         <img src="../Imagenes/SegundoTaller4/Pencil.jpg" class="Imagen" alt="">
         <br><br>
@@ -102,7 +112,10 @@
 
     <div class="Preguntas">
     
-        <p>4.What is this object? </p>
+        <p>
+            Marca la opción correcta <br><br>
+            4.What is this object? 
+        </p>
         <img src="../Imagenes/SegundoTaller4/Eraser.png" class="Imagen"  alt="">
         <br><br>
 
@@ -125,7 +138,10 @@
 
     <div class="Preguntas">
     
-        <p>5.What object is this? </p>
+        <p>
+            Marca la opción correcta <br><br>
+            5.What object is this? 
+        </p>
         <img src="../Imagenes/SegundoTaller4/Backpack.jpg" class="Imagen"  alt="">
         <br><br>
 

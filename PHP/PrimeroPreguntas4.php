@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vocabulary</title>
     <link rel="stylesheet" href="../CSS/PrimeroPreguntas4.css">
+    <link rel="shortcut icon" href="../Imagenes/Logo1.png" type="image/x-icon">
 </head>
 <body>
     
@@ -31,7 +32,10 @@
 
     <div class="Preguntas">
          
-        <p>1.Complete with the letter</p>
+        <p>
+            Escoge la primera letra de cada palabra <br><br>
+            1.Complete with the letter
+        </p>
         
         <img src="../Imagenes/PrimeroTaller4/Apple.jpg"class="Apple" alt="">
         <br>
@@ -57,7 +61,10 @@
 
     <div class="Preguntas">
     
-        <p>2.Complete with the letter</p>
+        <p>
+            Escoge la primera letra de cada palabra <br><br>
+            2.Complete with the letter
+        </p>
 
         <img src="../Imagenes/PrimeroTaller4/Bee.jpg" alt="">
         <br>
@@ -83,7 +90,10 @@
 
     <div class="Preguntas">
     
-        <p>3.What animal is this? </p>
+        <p>
+            Escoge la primera letra de cada palabra <br><br>
+            3.What animal is this? 
+        </p>
 
         <img src="../Imagenes/PrimeroTaller4/Panda.jpg" alt="">
         <br>
@@ -110,7 +120,10 @@
 
     <div class="Preguntas">
     
-        <p>4.Complete with the letter </p>
+        <p>
+            Escoge la primera letra de cada palabra <br><br>
+            4.Complete with the letter 
+        </p>
         <br>
         
         <img src="../Imagenes/PrimeroTaller4/Goat.jpg" alt="">
@@ -137,7 +150,10 @@
 
     <div class="Preguntas">
     
-        <p>5.Complete with the letter</p>
+        <p>
+            Escoge la primera letra de cada palabra <br><br>
+            5.Complete with the letter
+        </p>
         <br>
 
         <img src="../Imagenes/PrimeroTaller4/Sheep.jpg" alt="">

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Numbers</title>
     <link rel="stylesheet" href="../CSS/PrimeroPreguntas1.css">
+    <link rel="shortcut icon" href="../Imagenes/Logo1.png" type="image/x-icon">
 </head>
 <body>
     
@@ -30,7 +31,10 @@
 
     <div class="Preguntas">
          
-        <p>1.What number is this? </p>
+        <p>
+            Escoge la opción correcta <br><br>
+            1.What number is this?
+        </p>
         
         <img src="../Imagenes/PrimerTaller/Two.gif" alt="">
         <br><br>
@@ -54,7 +58,10 @@
 
     <div class="Preguntas">
     
-        <p>2.What number is this? </p>
+        <p>
+            Escoge la opción correcta <br><br>
+            2.What number is this? 
+        </p>
 
         <img src="../Imagenes/PrimerTaller/Five.jpg" alt="">
         <br><br>
@@ -78,7 +85,10 @@
 
     <div class="Preguntas">
     
-        <p>3.Nine means: </p>
+        <p>
+            Escoge la opción correcta <br><br>
+            3.Nine means: 
+        </p>
 
         <img src="../Imagenes/PrimerTaller/Nine.jpg" alt="">
         <br><br>
@@ -99,10 +109,13 @@
             </label>
 
     </div>
-
+   
     <div class="Preguntas">
     
-        <p>4.Complete the following sequence: </p>
+        <p>
+            Completa la secuencia <br><br>
+            4.Complete the following sequence: 
+        </p>
         <br>
         <label>One-two-three-four-five-______-seven</label>
         <br><br><br>
@@ -126,7 +139,10 @@
 
     <div class="Preguntas">
     
-        <p>5.Complete the following sequence: </p>
+        <p>
+            Completa la secuencia <br><br>
+            5.Complete the following sequence: 
+        </p>
         <br>
         <label>Eight-nine-_______eleven</label>
         <br><br><br>

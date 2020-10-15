@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IN/ON/UNDER</title>
     <link rel="stylesheet" href="../CSS/SegundoPreguntas3.css">
+    <link rel="shortcut icon" href="../Imagenes/Logo1.png" type="image/x-icon">
 </head>
 <body>
     
@@ -32,9 +33,11 @@
 
     <div class="Preguntas">
          
-         
-         <img src="../Imagenes/SegundoTaller3/In-On-Under.jpg" class="Imagen">
-         <br>
+        
+        <p>Marca la opción correcta según la preposición de lugar y la posición del objeto</p>
+        <br><br>
+        <img src="../Imagenes/SegundoTaller3/In-On-Under.jpg" class="Imagen">
+        
  
      </div>
 
@@ -104,7 +107,7 @@
 
     <div class="Preguntas">
     
-        <p>4.Where is the cup of coffee?</p>
+        <p>4.Where is the glass of coffee?</p>
         <br>
         
         <label>

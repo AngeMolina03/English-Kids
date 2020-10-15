@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LIKES AND DISLIKES</title>
     <link rel="stylesheet" href="../CSS/TerceroPreguntas2.css">
+    <link rel="shortcut icon" href="../Imagenes/Logo1.png" type="image/x-icon">
 </head>
 <body>
     
@@ -30,6 +31,7 @@
 
     <div class="Preguntas">
         
+        <p>Responda falso o verdadero acerca de los gustos de Tom y Susan según la imagen</p> <br><br>
         <img src="../Imagenes/TerceroTaller2/Tom&Susan.jpg" alt="">
         
     </div>
