@@ -30,7 +30,10 @@
 
     <div class="Preguntas">
          
-        <p>1. He _________ a basketball player</p>
+        <p>
+            Escoge la opción correcta <br><br>
+            1. He _________ a basketball player
+        </p>
         
         <img src="../Imagenes/CuartoTaller1/primera.png" alt="">
         <br><br>
@@ -54,7 +57,10 @@
 
     <div class="Preguntas">
     
-        <p>2. I _________ a girl </p>
+        <p>
+            Escoge la opción correcta <br><br>
+            2. I _________ a girl 
+        </p>
 
         <img src="../Imagenes/CuartoTaller1/segunda.png" alt="">
         <br><br>
@@ -78,7 +84,10 @@
 
     <div class="Preguntas">
     
-        <p>3. It _________ a cold day</p>
+        <p>
+            Escoge la opción correcta <br><br>
+            3. It _________ a cold day
+        </p>
 
         <img src="../Imagenes/CuartoTaller1/Tercera.png" width="200" height="200" alt="">
         <br><br>
@@ -102,8 +111,11 @@
 
     <div class="Preguntas">
     
-        <p>4. They _________ from Brasil </p>
-        <br>
+        <p>
+            Escoge la opción correcta <br><br>
+            4. They _________ from Brasil 
+        </p>
+        
 
         <img src="../Imagenes/CuartoTaller1/cuarta.jpg" alt="">
         <br><br>
@@ -127,8 +139,11 @@
 
     <div class="Preguntas">
     
-        <p>5. We _________ in the park </p>
-        <br>
+        <p>
+            Escoge la opción correcta <br><br>
+            5. We _________ in the park 
+        </p>
+        
         
         <img src="../Imagenes/CuartoTaller1/quinta.jpg" alt="">
         <br><br>

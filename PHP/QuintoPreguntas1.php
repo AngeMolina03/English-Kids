@@ -33,8 +33,10 @@
          
         <img src="../Imagenes/QuintoTaller1/Fever.jpg" class="Imagen" alt="">
         <br>
-        <p>1. He had... </p>
-        <br>
+        <p>
+            Responde correctamente según la imagen <br><br>  
+            1. He had... 
+        </p>
 
         <label>
             <input type="radio" name="Respuesta1" value="Fever" > Fever
@@ -57,8 +59,10 @@
         
         <img src="../Imagenes/QuintoTaller1/Cold.jpg" class="Imagen2" alt="">
         <br>
-        <p>2. He feels...</p>
-        <br>
+        <p>
+            Responde correctamente según la imagen <br><br>
+            2. He feels...
+        </p>
 
         <label>
             <input type="radio" name="Respuesta2" value="Cold"> Cold
@@ -81,8 +85,10 @@
     
         <img src="../Imagenes/QuintoTaller1/Dizzy.jpg" alt="">
         <br>
-        <p>3. Nine feels...</p>
-        <br>
+        <p>
+            Responde correctamente según la imagen <br><br>
+            3. Nine feels...
+        </p>
 
             <label>
                 <input type="radio" name="Respuesta3" value="Bruise" > Bruise
@@ -105,8 +111,10 @@
     
         <img src="../Imagenes/QuintoTaller1/Stomachache.jpg" alt="">
         <br>
-        <p>4. She had...</p>
-        <br>
+        <p> 
+            Responde correctamente según la imagen <br><br>
+            4. She had...
+        </p>
 
         <label>
             <input type="radio" name="Respuesta4" value="A broken hand"> A broken hand
@@ -129,8 +137,10 @@
     
         <img src="../Imagenes/QuintoTaller1/Toothache.jpg" alt="">
         <br>
-        <p>5. She had... </p>
-        <br>
+        <p>
+            Responde correctamente según la imagen <br><br>
+            5. She had... 
+        </p>
 
         <label>
             <input type="radio" name="Respuesta5" value="Toothache"> Toothache

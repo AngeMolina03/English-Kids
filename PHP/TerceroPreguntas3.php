@@ -30,7 +30,10 @@
 
     <div class="Preguntas">
          
-        <p>1.What time is it? </p>
+        <p>
+        	Responde que horas son según los relojes <br><br>
+            1.What time is it? 
+        </p>
         
         <img src="../Imagenes/TerceroTaller3/uno.png" alt="">
         <br><br>
@@ -54,7 +57,10 @@
 
     <div class="Preguntas">
     
-        <p>2.What time is it? </p>
+        <p>
+            Responde que horas son según los relojes <br><br>
+            2.What time is it? 
+        </p>
 
         <img src="../Imagenes/TerceroTaller3/dos.png" alt="">
         <br><br>
@@ -78,7 +84,10 @@
 
     <div class="Preguntas">
     
-        <p>3.What time is it?</p>
+        <p>
+            Responde que horas son según los relojes <br><br>
+            3.What time is it?
+        </p>
 
         <img src="../Imagenes/TerceroTaller3/tres.png" alt="">
         <br><br>
@@ -102,8 +111,10 @@
 
     <div class="Preguntas">
     
-        <p>4.What time is it? </p>
-        <br>
+        <p>
+            Responde que horas son según los relojes <br><br>
+            4.What time is it? 
+        </p>
 
         <img src="../Imagenes/TerceroTaller3/cuatro.png" alt="">
         <br><br>
@@ -127,8 +138,10 @@
 
     <div class="Preguntas">
     
-        <p>5.What time is it? </p>
-        <br>
+        <p>
+            Responde que horas son según los relojes <br><br>
+            5.What time is it? 
+        </p>
         
         <img src="../Imagenes/TerceroTaller3/cinco.png" alt="">
         <br><br>

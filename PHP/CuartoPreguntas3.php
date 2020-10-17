@@ -22,13 +22,13 @@
     </div>
 
     <div class="Video">
-    
         <iframe width="560" height="315" src="https://www.youtube.com/embed/oCAZMW4jMX8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
     <form action="CuartoPreguntas3.php" method="post">
 
     <div class="Preguntas">
+    <p>Responde falso o verdadero según la imagen</p> <br>
         <img src="../Imagenes/CuartoTaller3/primera.png" alt="">
     </div>
 

@@ -32,7 +32,10 @@
 
     <div class="Preguntas">
          
-        <p>1. Awoke </p>
+        <p>
+            Escoge la opción correcta <br><br>
+            1. Awoke 
+        </p>
 
         <img src="../Imagenes/QuintoTaller3/Awoke.jpg" class="Imagen" alt="">
         <br><br>
@@ -53,7 +56,10 @@
 
     <div class="Preguntas">
         
-        <p>2. Created </p>
+        <p>
+            Escoge la opción correcta <br><br>
+            2. Created 
+        </p>
 
         <img src="../Imagenes/QuintoTaller3/Created.jpg" class="Imagen" alt="">
         <br><br>
@@ -74,7 +80,10 @@
 
     <div class="Preguntas">
     
-        <p>3. Knew </p>
+        <p>
+            Escoge la opción correcta <br><br>
+            3. Knew 
+        </p>
 
         <img src="../Imagenes/QuintoTaller3/Knew.jpg" alt="">
         <br><br>
@@ -95,7 +104,10 @@
 
     <div class="Preguntas">
 
-        <p>4. Lost </p>
+        <p>
+            Escoge la opción correcta <br><br> 
+            4. Lost 
+        </p>
 
         <img src="../Imagenes/QuintoTaller3/Lost.jpg" class="Imagen" alt="">
         <br><br>
@@ -116,7 +128,10 @@
 
     <div class="Preguntas">
     
-        <p>5. Cooked </p>
+        <p>
+            Escoge la opción correcta <br><br>
+            5. Cooked 
+        </p>
 
         <img src="../Imagenes/QuintoTaller3/Cooked.jpg" class="Imagen" alt="">
         <br><br>

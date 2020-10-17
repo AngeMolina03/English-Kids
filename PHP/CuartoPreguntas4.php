@@ -30,7 +30,10 @@
 
     <div class="Preguntas">
          
-        <p>1. Where are you going?</p>
+        <p>
+            Completa la conversación con el enunciado mas coherente <br><br>
+            1. Where are you going?
+        </p>
         <label>
             <input type="radio" name="Respuesta1" value="It's a few minutes after two" > It's a few minutes after two
         </label>
@@ -50,7 +53,10 @@
 
     <div class="Preguntas">
     
-        <p>2. Are you ready for tomorrow? </p>
+        <p>
+            Completa la conversación con el enunciado mas coherente <br><br> 
+            2. Are you ready for tomorrow? 
+        </p>
         <label>
             <input type="radio" name="Respuesta2" value="No, not yet"> No, not yet 
         </lab>
@@ -70,7 +76,10 @@
 
     <div class="Preguntas">
     
-        <p>3. Do you have any hobbies?</p>
+        <p>
+            Completa la conversación con el enunciado mas coherente <br><br>
+            3. Do you have any hobbies?
+        </p>
             <label>
                 <input type="radio" name="Respuesta3" value="Yes, I like singing" > Yes, I like singing
             </label>
@@ -90,8 +99,11 @@
 
     <div class="Preguntas">
     
-        <p>4. When did you travel by train? </p>
-        <br>
+        <p>
+            Completa la conversación con el enunciado mas coherente <br><br>
+            4. When did you travel by train? 
+        </p>
+        
         <label>
             <input type="radio" name="Respuesta4" value="I don't like trains"> I don't like trains
         </label>
@@ -111,8 +123,11 @@
 
     <div class="Preguntas">
     
-        <p>5. What do you plan to do this Saturday? </p>
-        <br>
+        <p>
+            Completa la conversación con el enunciado mas coherente <br><br>
+            5. What do you plan to do this Saturday? 
+        </p>
+        
         <label>
             <input type="radio" name="Respuesta5" value="I'm playing basketball"> I'm playing basketball
         </label>

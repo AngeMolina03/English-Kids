@@ -32,7 +32,10 @@
 
     <div class="Preguntas">
          
-        <p>1. She _____ sick yesterday </p>
+        <p>
+            Escoge la opción correcta <br><br>
+            1. She _____ sick yesterday 
+        </p>
 
         <img src="../Imagenes/QuintoTaller4/Sick.jpg" class="Imagen" alt="">
         <br><br>
@@ -53,7 +56,10 @@
 
     <div class="Preguntas">
         
-        <p>2. We _____ in a trouble </p>
+        <p>
+            Escoge la opción correcta <br><br>   
+            2. We _____ in a trouble 
+        </p>
 
         <img src="../Imagenes/QuintoTaller4/Trouble.jpg" class="Imagen" alt="">
         <br><br>
@@ -74,7 +80,10 @@
 
     <div class="Preguntas">
     
-        <p>3. He _____ in Jamaica last summer </p>
+        <p>     
+            Escoge la opción correcta <br><br>
+            3. He _____ in Jamaica last summer 
+        </p>
 
         <img src="../Imagenes/QuintoTaller4/Surf.jpg" class="Imagen" alt="">
         <br><br>
@@ -95,7 +104,10 @@
 
     <div class="Preguntas">
 
-        <p>4. I _____ a good student </p>
+        <p>
+            Escoge la opción correcta <br><br>   
+            4. I _____ a good student 
+        </p>
 
         <img src="../Imagenes/QuintoTaller4/Good.jpg" class="Imagen" alt="">
         <br><br>
@@ -116,7 +128,10 @@
 
     <div class="Preguntas">
     
-        <p>5. They ______ married </p>
+        <p>
+            Escoge la opción correcta <br><br>
+            5. They ______ married 
+        </p>
 
         <img src="../Imagenes/QuintoTaller4/Break.jpg" class="Imagen" alt="">
         <br><br>

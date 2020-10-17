@@ -30,7 +30,10 @@
 
     <div class="Preguntas">
          
-        <p>1. _________ of his travels were amazing</p>
+        <p>
+            Escoge la opción correcta <br><br>
+            1. _________ of his travels were amazing
+        </p>
         
         <img src="../Imagenes/CuartoTaller2/primera.jpg" alt="">
         <br><br>
@@ -51,7 +54,10 @@
 
     <div class="Preguntas">
     
-        <p>2. I don't like _________ of those shoes </p>
+        <p>
+            Escoge la opción correcta <br><br>
+            2. I don't like _________ of those shoes 
+        </p>
 
         <img src="../Imagenes/CuartoTaller2/Segunda.jpg" alt="">
         <br><br>
@@ -72,7 +78,10 @@
 
     <div class="Preguntas">
     
-        <p>3. I see _________ cats on my way home today</p>
+        <p>
+            Escoge la opción correcta <br><br>
+            3. I see _________ cats on my way home today
+        </p>
 
         <img src="../Imagenes/CuartoTaller2/tercera.jpg" width="200" height="200" alt="">
         <br><br>
@@ -93,8 +102,10 @@
 
     <div class="Preguntas">
     
-        <p>4. I don't have _________ money </p>
-        <br>
+        <p>
+            Escoge la opción correcta <br><br>
+            4. I don't have _________ money 
+        </p>    
 
         <img src="../Imagenes/CuartoTaller2/cuarta.jpg" width="200" height="200" alt="">
         <br><br>
@@ -115,8 +126,10 @@
 
     <div class="Preguntas">
     
-        <p>5. You spilled _________ milk </p>
-        <br>
+        <p>
+            Escoge la opción correcta <br><br>
+            5. You spilled _________ milk 
+        </p>
         
         <img src="../Imagenes/CuartoTaller2/quinta.jpg" alt="">
         <br><br>

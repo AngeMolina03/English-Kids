@@ -37,8 +37,10 @@
 
     <div class="Preguntas">
          
-        <p>1. We use <u>when</u>: </p>
-        <br>
+        <p>
+            Lee y elige el enunciado <br><br>
+            1. We use <u>when</u>: 
+        </p>
 
         <label>
             <input type="radio" name="Respuesta1" value="To talk about a number" > To talk about a number
@@ -59,8 +61,10 @@
 
     <div class="Preguntas">
         
-        <p>2. We use <u>who</u>: </p>
-        <br>
+        <p>
+            Lee y elige el enunciado <br><br> 
+            2. We use <u>who</u>: 
+        </p>
 
         <label>
             <input type="radio" name="Respuesta2" value="To talk about a person"> To talk about a person
@@ -81,8 +85,10 @@
 
     <div class="Preguntas">
     
-        <p>3. We use <u>why</u>: </p>
-        <br>
+        <p>
+            Lee y elige el enunciado <br><br>
+            3. We use <u>why</u>: 
+        </p>
 
             <label>
                 <input type="radio" name="Respuesta3" value="To talk about a reason something happened" > To talk about a reason something happened
@@ -103,8 +109,10 @@
 
     <div class="Preguntas">
 
-        <p>4. We use <u>what</u>: </p>
-        <br>
+        <p>
+            Lee y elige el enunciado <br><br>
+            4. We use <u>what</u>: 
+        </p>
 
         <label>
             <input type="radio" name="Respuesta4" value="To talk about a thing or an action"> To talk about a thing or an action
@@ -125,8 +133,10 @@
 
     <div class="Preguntas">
     
-        <p>5. We use <u>where</u>: </p>
-        <br>
+        <p>
+            Lee y elige el enunciado <br><br>
+            5. We use <u>where</u>: 
+        </p>
 
         <label>
             <input type="radio" name="Respuesta5" value="To talk about a reason"> To talk about a reason
