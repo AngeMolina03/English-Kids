@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Family</title>
     <link rel="stylesheet" href="../CSS/SegundoPreguntas2.css">
+    <link rel="shortcut icon" href="../Imagenes/Logo1.png" type="image/x-icon">
 </head>
 <body>
     
@@ -40,7 +41,10 @@
 
     <div class="Preguntas">
          
-        <p>1.My mom's mom is my______</p>
+        <p>
+            Completa el enunciado con la palabra correcta <br><br>
+            1.My mom's mom is my______
+        </p>
         
 
         <label>
@@ -62,7 +66,10 @@
 
     <div class="Preguntas">
     
-        <p>2.The other son of my parents is_____</p>
+        <p>
+            Completa el enunciado con la palabra correcta <br><br>
+            2.The other son of my parents is_____
+        </p>
 
         <label>
             <input type="radio" name="Respuesta2" value="Uncle"> Uncle
@@ -83,7 +90,10 @@
 
     <div class="Preguntas">
     
-        <p>3.The sister of my dad is my_______</p>
+        <p>
+            Completa el enunciado con la palabra correcta <br><br>
+            3.The sister of my dad is my_______
+        </p>
 
         <label>
             <input type="radio" name="Respuesta3" value="Aunt"> Aunt
@@ -104,7 +114,10 @@
 
     <div class="Preguntas">
     
-        <p>4.The son of my aunt is my____</p>
+        <p>
+            Completa el enunciado con la palabra correcta <br><br>
+            4.The son of my aunt is my____
+        </p>
         <br>
         
         <label>
@@ -126,7 +139,10 @@
 
     <div class="Preguntas">
     
-        <p>5.The daughter of my sister is my_____</p>
+        <p>
+            Completa el enunciado con la palabra correcta <br><br>
+            5.The daughter of my sister is my_____
+        </p>
         <br>
 
         <label>

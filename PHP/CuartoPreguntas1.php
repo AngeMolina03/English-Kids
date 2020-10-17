@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VERB TO BE</title>
     <link rel="stylesheet" href="../CSS/CuartoPreguntas1.css">
+    <link rel="shortcut icon" href="../Imagenes/Logo1.png" type="image/x-icon">
 </head>
 <body>
     <div class="FondoImagen"></div>

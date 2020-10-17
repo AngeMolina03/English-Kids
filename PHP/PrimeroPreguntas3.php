@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Week</title>
     <link rel="stylesheet" href="../CSS/PrimeroPreguntas3.css">
+    <link rel="shortcut icon" href="../Imagenes/Logo1.png" type="image/x-icon">
 </head>
 <body>
 
@@ -40,7 +41,10 @@
 
     <div class="Preguntas">
          
-        <p>1.Miercoles in English is:</p>
+        <p>
+            Marca la opción correcta para cada pregunta <br><br>
+            1.Miercoles in English is:
+        </p>
         
 
         <label>
@@ -62,7 +66,10 @@
 
     <div class="Preguntas">
     
-        <p>2.Lunes in English is:</p>
+        <p>
+            Marca la opción correcta para cada pregunta <br><br>
+            2.Lunes in English is:
+        </p>
 
         <label>
             <input type="radio" name="Respuesta2" value="Thursday"> Thursday
@@ -83,7 +90,10 @@
 
     <div class="Preguntas">
     
-        <p>3.Jueves in English is:</p>
+        <p>
+            Marca la opción correcta para cada pregunta <br><br>
+            3.Jueves in English is:
+        </p>
 
         <label>
             <input type="radio" name="Respuesta3" value="Thursday"> Thursday
@@ -104,7 +114,10 @@
 
     <div class="Preguntas">
     
-        <p>4.Sabado in English is: </p>
+        <p>
+            Marca la opción correcta para cada pregunta <br><br>
+            4.Sabado in English is: 
+        </p>
         <br>
         
         <label>
@@ -126,7 +139,10 @@
 
     <div class="Preguntas">
     
-        <p>5.Viernes in English is: </p>
+        <p>
+            Marca la opción correcta para cada pregunta <br><br>
+            5.Viernes in English is: 
+        </p>
         <br>
 
         <label>

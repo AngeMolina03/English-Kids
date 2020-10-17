@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Opossites</title>
     <link rel="stylesheet" href="../CSS/TerceroPreguntas1.css">
+    <link rel="shortcut icon" href="../Imagenes/Logo1.png" type="image/x-icon">
 </head>
 <body>
     
@@ -30,7 +31,10 @@
 
     <div class="Preguntas">
          
-        <p>1.The opposite of day is… </p>
+        <p>
+            Marca la opción que corresponda al opuesto de cada objeto <br><br>
+            1.The opposite of day is… 
+        </p>
         
         <img src="../Imagenes/TerceroTaller1/Night.jpg" alt="">
         <br><br>
@@ -54,7 +58,10 @@
 
     <div class="Preguntas">
     
-        <p>2.The  opposite of big is… </p>
+        <p>
+            Marca la opción que corresponda al opuesto de cada objeto <br><br>
+            2.The  opposite of big is… 
+        </p>
 
         <img src="../Imagenes/TerceroTaller1/Little.jpg" alt="">
         <br><br>
@@ -78,7 +85,10 @@
 
     <div class="Preguntas">
     
-        <p>3.The opposite of  down is… </p>
+        <p>
+            Marca la opción que corresponda al opuesto de cada objeto <br><br>
+            3.The opposite of  down is… 
+        </p>
 
         <img src="../Imagenes/TerceroTaller1/Up.jpg" alt="">
         <br><br>
@@ -102,7 +112,10 @@
 
     <div class="Preguntas">
     
-        <p>4.The opposite of fast is… </p>
+        <p>
+            Marca la opción que corresponda al opuesto de cada objeto <br><br>
+            4.The opposite of fast is… 
+        </p>
         <br>
 
         <img src="../Imagenes/TerceroTaller1/Slow.jpg" alt="">
@@ -127,7 +140,10 @@
 
     <div class="Preguntas">
     
-        <p>5.The opposite of tall is… </p>
+        <p>
+            Marca la opción que corresponda al opuesto de cada objeto <br><br>
+            5.The opposite of tall is… 
+        </p>
         <br>
         
         <img src="../Imagenes/TerceroTaller1/Short.jpg" alt="">
