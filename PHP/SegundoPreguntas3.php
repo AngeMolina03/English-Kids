@@ -108,7 +108,6 @@
     <div class="Preguntas">
     
         <p>4.Where is the glass of coffee?</p>
-        <br>
         
         <label>
             <input type="radio" name="Respuesta4" value="In the bed"> In the bed
@@ -130,7 +129,6 @@
     <div class="Preguntas">
     
         <p>5.Where is the pink note?</p>
-        <br>
 
         <label>
             <input type="radio" name="Respuesta5" value="Around the red and the white note"> Around the red and the white note

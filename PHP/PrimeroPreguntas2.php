@@ -116,7 +116,6 @@
             Marca la opción correcta para cada pregunta <br><br>
             4.The strawberry is _______ 
         </p>
-        <br>
 
         <img src="../Imagenes/PrimeroTaller2/Red.jpg" alt="">
         <br><br>
@@ -144,7 +143,6 @@
             Marca la opción correcta para cada pregunta <br><br>
             5.The horse is_________
         </p>
-        <br>
 
         <img src="../Imagenes/PrimeroTaller2/Brown.jpg" alt="">
         <br><br>

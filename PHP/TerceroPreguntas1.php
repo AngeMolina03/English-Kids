@@ -116,7 +116,6 @@
             Marca la opción que corresponda al opuesto de cada objeto <br><br>
             4.The opposite of fast is… 
         </p>
-        <br>
 
         <img src="../Imagenes/TerceroTaller1/Slow.jpg" alt="">
         <br><br>
@@ -144,7 +143,6 @@
             Marca la opción que corresponda al opuesto de cada objeto <br><br>
             5.The opposite of tall is… 
         </p>
-        <br>
         
         <img src="../Imagenes/TerceroTaller1/Short.jpg" alt="">
         <br><br>

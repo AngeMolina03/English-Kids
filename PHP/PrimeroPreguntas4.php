@@ -124,7 +124,6 @@
             Escoge la primera letra de cada palabra <br><br>
             4.Complete with the letter 
         </p>
-        <br>
         
         <img src="../Imagenes/PrimeroTaller4/Goat.jpg" alt="">
         <br>
@@ -154,7 +153,6 @@
             Escoge la primera letra de cada palabra <br><br>
             5.Complete with the letter
         </p>
-        <br>
 
         <img src="../Imagenes/PrimeroTaller4/Sheep.jpg" alt="">
         <br><br>

@@ -118,7 +118,6 @@
             Marca la opción correcta para cada pregunta <br><br>
             4.Sabado in English is: 
         </p>
-        <br>
         
         <label>
             <input type="radio" name="Respuesta4" value="Saturday"> Saturday
@@ -143,7 +142,6 @@
             Marca la opción correcta para cada pregunta <br><br>
             5.Viernes in English is: 
         </p>
-        <br>
 
         <label>
             <input type="radio" name="Respuesta5" value="Monday"> Monday

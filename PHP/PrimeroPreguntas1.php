@@ -116,7 +116,7 @@
             Completa la secuencia <br><br>
             4.Complete the following sequence: 
         </p>
-        <br>
+
         <label>One-two-three-four-five-______-seven</label>
         <br><br><br>
 
@@ -143,7 +143,7 @@
             Completa la secuencia <br><br>
             5.Complete the following sequence: 
         </p>
-        <br>
+        
         <label>Eight-nine-_______eleven</label>
         <br><br><br>
 

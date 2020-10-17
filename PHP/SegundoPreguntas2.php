@@ -118,7 +118,6 @@
             Completa el enunciado con la palabra correcta <br><br>
             4.The son of my aunt is my____
         </p>
-        <br>
         
         <label>
             <input type="radio" name="Respuesta4" value="Cousin"> Cousin
@@ -143,7 +142,6 @@
             Completa el enunciado con la palabra correcta <br><br>
             5.The daughter of my sister is my_____
         </p>
-        <br>
 
         <label>
             <input type="radio" name="Respuesta5" value="Niece"> Niece
