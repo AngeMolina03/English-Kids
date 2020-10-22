@@ -98,11 +98,11 @@
             </label>
             <br>
             <label>
-                <input type="radio" name="Respuesta3" value="Tres"> Tres
+                <input type="radio" name="Respuesta3" value="Cook"> Cook
             </label>
             <br>
             <label>
-                <input type="radio" name="Respuesta3" value="Nueve"> Nueve
+                <input type="radio" name="Respuesta3" value="Backpack"> Backpack
             </label>
             <label class="oculto">
                 <input type="radio" name="Respuesta3" value="Vacio" checked>

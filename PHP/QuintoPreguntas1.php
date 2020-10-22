@@ -87,7 +87,7 @@
         <br>
         <p>
             Responde correctamente según la imagen <br><br>
-            3. Nine feels...
+            3. He feels...
         </p>
 
             <label>
